@@ -1,0 +1,11 @@
+:root {
+    --color-bg: #f4f6f5;
+    --color-light-grey: #848493;
+    --color-accent: #b23e51;
+    --color-dark-grey: #707070;
+    --color-black-purple: #271b29;
+}
+
+* {
+    box-sizing: border-box;
+}
