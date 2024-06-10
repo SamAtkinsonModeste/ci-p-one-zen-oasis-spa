@@ -1,3 +1,7 @@
+/********************
+VARIABLES
+*********************/
+
 :root {
     --color-bg: #f4f6f5;
     --color-light-grey: #848493;
@@ -6,10 +10,14 @@
     --color-black-purple: #271b29;
 }
 
+/*Box Sizing*/
 * {
     box-sizing: border-box;
 }
 
+/**********************************
+General Styling
+***********************************/
 body {
     font: normal 1em/1.6 "Aptly", sans-serif;
     background: var(--color-bg);
@@ -17,7 +25,7 @@ body {
 }
 
 .container {
-    width: 99%;
+    width: 100%;
     max-width: 1800px;
     display: grid;
     grid-template-columns: 100%;
@@ -26,15 +34,34 @@ body {
 
 }
 
+img {
+    width: 100%;
+}
 
+h1,
+h2 {
+    font-family: "Amandine", cursive, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*****************************
+ Header & Nav Elements
+******************************/
 header {
     grid-area: header;
 }
 
 
+
+
+
 main {
     grid-area: main;
 }
+
 
 footer {
     grid-area: footer;
