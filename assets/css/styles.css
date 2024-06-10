@@ -47,11 +47,60 @@ a {
     text-decoration: none;
 }
 
+ul {
+    padding: 0;
+}
+
 /*****************************
  Header & Nav Elements
 ******************************/
 header {
     grid-area: header;
+    position: relative;
+    display: flex;
+    height: 60px;
+}
+
+/** Logo **/
+#logo img {
+    height: 58px;
+    margin-right: auto;
+
+}
+
+/*Hamburger Nav Control*/
+.nav-toggle-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 60px;
+    height: 55px;
+    align-self: center;
+    /*****DEBUG REMOVE*****/
+    border: solid rgb(240, 19, 3) 1px;
+}
+
+/*Hamburger Bars*/
+.hamburger {
+    display: block;
+    background-color: var(--color-black-purple);
+    width: 50px;
+    height: 7px;
+    border-radius: 5px;
+    margin: 4px auto;
+
+}
+
+
+
+#menu {
+    position: absolute;
+    width: 100%;
+    top: 46px;
+    left: 0;
+    /*****DEBUG REMOVE*****/
+    border: solid green 1px;
 }
 
 
