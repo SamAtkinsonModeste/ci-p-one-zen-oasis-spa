@@ -69,8 +69,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 60px;
-    max-height: 80px;
+    height: 60px;
     z-index: 10;
     box-shadow: 0 1px 5px var(--color-black-purple);
 }
@@ -202,8 +201,16 @@ main {
     grid-area: main;
     max-width: 1850px;
     margin: 0 auto;
+    margin-top: 10%;
     /*****DEBUG REMOVE*****/
     border: solid rgb(215, 42, 15) 1px;
+}
+
+/*********Index Main Elements ***************/
+/*Top section element*/
+
+#intro {
+    background: url("../images/reception.webp") no-repeat center center/cover;
 }
 
 /*****************************
@@ -258,6 +265,10 @@ small {
 
 @media screen and (min-width: 768px) {
 
+    /*HEADER*/
+    header {
+        height: 80px;
+    }
 
     /* Nav Items*/
 
