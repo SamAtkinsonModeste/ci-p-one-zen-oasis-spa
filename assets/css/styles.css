@@ -55,6 +55,7 @@ ul {
 
 .welcome-Oasis,
 .explore-menu,
+.experts p,
 small,
 #social-networks li {
     text-align: center;
@@ -282,6 +283,26 @@ main {
 
 .towels img {
     opacity: 0.4;
+}
+
+
+#treatments h2 {
+    color: var(--color-accent);
+    font-size: 2rem;
+}
+
+.experts {
+    background: linear-gradient(rgba(178, 62, 81, 0.6), rgba(178, 62, 81, 0.6)), url("../images/rose-massage-bed.webp") no-repeat center center/cover;
+    margin-bottom: 0;
+    padding-bottom: 77px;
+}
+
+.experts p {
+    width: 90%;
+    margin: 0 auto 20px;
+    line-height: 20px;
+    font-size: 0.990rem;
+    text-shadow: 0 1px 1px var(--color-black-purple);
 }
 
 
