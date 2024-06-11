@@ -207,7 +207,20 @@ main {
 }
 
 /*********Index Main Elements ***************/
+/*Top section element*/
 
+#intro {
+    position: relative;
+    padding: 1px;
+    height: 140px;
+    background: url("../images/reception.webp") no-repeat center center/cover;
+}
+
+#reception {
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+}
 
 /*****************************
  Footer & Ul Elements
