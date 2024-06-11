@@ -211,7 +211,7 @@ main {
 ******************************/
 footer {
     grid-area: footer;
-    min-height: 30px;
+    min-height: 70px;
     background-color: var(--color-black-purple);
 }
 
@@ -300,8 +300,7 @@ small {
 
     /****FOOTER ELEMENTS******/
     footer {
-        /* min-height: 40px; */
-        padding-top: 30px;
+        padding-top: 10px;
 
     }
 
