@@ -217,10 +217,28 @@ main {
 }
 
 #reception {
-    height: 70px;
     position: absolute;
-    bottom: 0;
+    width: 100%;
+    height: 47px;
+    background-color: rgba(39, 27, 41, 0.3);
+    margin: 0;
+    top: 94px;
+    left: 0;
+
 }
+
+#reception h1 {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    top: 5px;
+    left: 0;
+    text-shadow: 0 2px 3px var(--color-black-purple);
+}
+
+
+
+
 
 /*****************************
  Footer & Ul Elements
