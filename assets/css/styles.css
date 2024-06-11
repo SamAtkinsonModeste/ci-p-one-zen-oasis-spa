@@ -27,6 +27,7 @@ body {
 .container {
     width: 100%;
     display: grid;
+    height: 100vh;
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: "header" "main" "footer";
@@ -52,6 +53,11 @@ ul {
     list-style-type: none;
 }
 
+small,
+#social-networks li {
+    text-align: center;
+}
+
 /*****************************
  Header & Nav Elements
 ******************************/
@@ -61,7 +67,10 @@ header {
     width: 100%;
     background-color: var(--color-bg);
     display: flex;
-    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    max-height: 80px;
     z-index: 10;
     box-shadow: 0 1px 5px var(--color-black-purple);
 }
@@ -184,8 +193,11 @@ nav {
 
 }
 
+/*****************************
+MAIN for Each Page
+******************************/
 
-
+/*MAIN general for all pages*/
 main {
     grid-area: main;
     max-width: 1850px;
@@ -194,9 +206,50 @@ main {
     border: solid rgb(215, 42, 15) 1px;
 }
 
-
+/*****************************
+ Footer & Ul Elements
+******************************/
 footer {
     grid-area: footer;
+    min-height: 30px;
+    background-color: var(--color-black-purple);
+}
+
+/*UL containing li with social media links*/
+#social-networks {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social-networks li {
+    margin: 0 10px;
+    padding-top: 5px;
+}
+
+#social-networks li img {
+    width: 50%;
+}
+
+/*Li containing small element*/
+.copy {
+    order: 4;
+    flex: 0 0 100%;
+
+    /*****DEBUG REMOVE*****/
+    /* border: solid rgb(215, 15, 202) 1px; */
+}
+
+/*SMALL Copyright*/
+small {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    /*****DEBUG REMOVE*****/
+    /* border: solid rgb(15, 215, 208) 1px; */
 }
 
 /*******************************
@@ -245,19 +298,74 @@ footer {
         font-size: 1.2rem;
     }
 
+    /****FOOTER ELEMENTS******/
+    footer {
+        /* min-height: 40px; */
+        padding-top: 30px;
+
+    }
+
+
+
+
+
+
+
 }
 
 
 @media screen and (min-width: 1024px) {
 
-    /*Header*/
-    header {
-        height: 80px;
-    }
+
 
     /*Nav Links*/
     #menu a {
         font-size: 1.5rem;
+    }
+
+    /****FOOTER ELEMENTS******/
+    footer {
+        min-height: 80px;
+
+    }
+
+
+
+}
+
+@media screen and (min-width: 1264px) {
+
+
+
+
+
+    /****FOOTER ELEMENTS******/
+    footer {
+        min-height: 80px;
+        padding-top: 10px;
+
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 1366px) {
+
+    /****FOOTER ELEMENTS******/
+    footer {
+        min-height: 90px;
+        padding-top: 1px;
+
+    }
+
+    #social-networks li img {
+        width: 75%;
+    }
+
+    small {
+        font-size: 0.950rem;
     }
 
 }
