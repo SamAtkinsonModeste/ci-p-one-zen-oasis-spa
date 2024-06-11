@@ -39,8 +39,7 @@ img {
     width: 100%;
 }
 
-h1,
-h2 {
+h1 {
     font-family: "Amandine", cursive, sans-serif;
 }
 
@@ -54,9 +53,15 @@ ul {
     list-style-type: none;
 }
 
+.welcome-Oasis,
+.explore-menu,
 small,
 #social-networks li {
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 /*****************************
@@ -237,8 +242,47 @@ main {
     text-shadow: 0 2px 3px var(--color-black-purple);
 }
 
+/**Welcome Section***/
+
+#welcome {
+    margin-top: 60px;
+}
+
+.welcome-Oasis {
+    color: var(--color-prime);
+
+}
+
+.unwind {
+    position: relative;
+    background: url("../images/unwind-bg.webp") no-repeat center center/cover;
+    height: 175px;
+}
+
+.unwind-text {
+    position: absolute;
+    top: -8px;
+    right: 1px;
+    bottom: 36px;
+    background-color: var(--color-prime);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 34px;
+    font-size: 0.880rem;
+}
 
 
+/***Treatment Section****/
+.explore-menu {
+    color: var(--color-black-purple);
+    font-size: 1.8rem;
+}
+
+.towels img {
+    opacity: 0.4;
+}
 
 
 /*****************************
