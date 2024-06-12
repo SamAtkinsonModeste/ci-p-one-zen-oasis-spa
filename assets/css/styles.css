@@ -229,8 +229,8 @@ main {
     height: 47px;
     background-color: rgba(39, 27, 41, 0.3);
     margin: 0;
-    top: 94px;
     left: 0;
+    bottom: 0;
 
 }
 
@@ -423,6 +423,24 @@ small {
     /**MAIN FOR ALL PAGES*/
     main {
         margin-top: 80px;
+    }
+
+
+    /*********Index Main Elements ***************/
+    /*Top section element*/
+
+    #intro {
+        height: 345px;
+    }
+
+    #reception {
+        height: 63px;
+    }
+
+    #reception h1 {
+        top: 9px;
+        font-size: 2.5rem;
+        text-shadow: 0 4px 6px var(--color-black-purple);
     }
 
     /****FOOTER ELEMENTS******/
