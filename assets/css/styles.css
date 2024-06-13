@@ -210,8 +210,8 @@ main {
     max-width: 1850px;
     margin: 0 auto;
     margin-top: 60px;
-    /*****DEBUG REMOVE*****/
-    border: solid rgb(215, 42, 15) 1px;
+    /****DEBUG REMOVE*******/
+    /* border: solid rgb(215, 42, 15) 1px; */
 }
 
 /*********Index Main Elements ***************/
