@@ -7,6 +7,7 @@ VARIABLES
     --color-light-grey: #848493;
     --color-accent: #b23e51;
     --color-prime: #c5845a;
+    --color-prime: #c5845a;
     --color-dark-grey: #707070;
     --color-black-purple: #271b29;
 }
@@ -40,744 +41,1097 @@ img {
 }
 
 h1 {
-    font-family: "Amandine", cursive, sans-serif;
-}
-
-a {
-    text-decoration: none;
-    cursor: pointer;
-}
-
-ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-.welcome-Oasis h2,
-.welcome-Oasis,
-.explore-menu,
-.experts p,
-small,
-#social-networks li {
-    text-align: center;
-}
-
-.hidden {
-    display: none;
-}
-
-/*****************************
- Header & Nav Elements
-******************************/
-header {
-    grid-area: header;
-    position: fixed;
-    width: 100%;
-    background-color: var(--color-bg);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    z-index: 10;
-    box-shadow: 0 1px 5px var(--color-black-purple);
-}
-
-/** Logo **/
-#logo {
-    width: 16.5%;
-    max-width: 85px;
-    padding-left: 2px;
-    margin-right: auto;
-}
-
-
-
-/*Hamburger Nav Control*/
-.nav-toggle-label {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    width: 60px;
-    height: 55px;
-    align-self: center;
-    margin-left: auto;
-    /*****DEBUG REMOVE*****/
-    /* border: solid rgb(240, 19, 3) 1px; */
-}
-
-
-/*Hamburger Bars*/
-.hamburger {
-    display: block;
-    background-color: var(--color-black-purple);
-    width: 50px;
-    height: 7px;
-    border-radius: 5px;
-    margin: 4px auto;
-
-}
-
-
-/*NAV */
-nav {
-    position: absolute;
-    width: 100%;
-    max-width: 900px;
-    top: 62px;
-    left: 0;
-    display: none;
-    /*****DEBUG REMOVE*****/
-    /* border: solid green 1px; */
-}
-
-/*HAMBURGER BARS  */
-.ham-1,
-.ham-2,
-.ham-3 {
-    transition: transform 0.5s ease-in,
-        opacity 0 ease-in;
-}
-
-
-/*Checkbox to animate hamburger and nav*/
-#nav-toggle {
-    opacity: 0;
-}
-
-#nav-toggle:checked~.nav-toggle-label .ham-1 {
-    transform: rotate(45deg) translate(10px, 10px);
-}
-
-#nav-toggle:checked~.nav-toggle-label .ham-2 {
-    opacity: 0;
-}
-
-#nav-toggle:checked~.nav-toggle-label .ham-3 {
-    transform: rotate(-45deg) translate(10px, -12px);
-}
-
-#nav-toggle:checked~nav {
-    display: block;
-    background-color: var(--color-bg);
-
-
-}
-
-
-
-/* UL nav menu*/
-#menu li {
-    text-align: center;
-    width: 50%;
-    margin: 15px auto;
-    border: 1px solid var(--color-black-purple);
-    border-radius: 5px;
-
-
-}
-
-
-
-#menu a {
-    padding: 8px 40px;
-    color: var(--color-black-purple);
-}
-
-#menu a.active {
-    color: var(--color-accent);
-}
-
-#menu li:hover {
-
-    background-color: var(--color-black-purple);
-    border-radius: 5px;
-    ;
-}
-
-#menu li:hover a {
-    color: var(--color-bg);
-
-}
-
-.fix-width {
-    max-width: 1850px;
-}
-
-/*****************************
-MAIN for Each Page
-******************************/
-
-/*MAIN general for all pages*/
-main {
-    grid-area: main;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 60px;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(215, 42, 15) 1px; */
-}
-
-/*********Index Main Elements ***************/
-/*Top section element*/
-
-#intro {
-    position: relative;
-    padding: 1px;
-    height: 140px;
-    background: url("../images/reception.webp") no-repeat center center/cover;
-}
-
-#reception {
-    position: absolute;
-    width: 100%;
-    height: 47px;
-    background-color: rgba(39, 27, 41, 0.3);
-    margin: 0;
-    left: 0;
-    bottom: 0;
-
-}
-
-#reception h1 {
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    padding-left: 1px;
-    top: 5px;
-    left: 0;
-    text-shadow: 0 2px 3px var(--color-black-purple);
-}
-
-/**Welcome Section***/
-
-#welcome {
-    margin-top: 60px;
-}
-
-.welcome-Oasis {
-    color: var(--color-prime);
-
-}
-
-
-
-.welcome-Oasis h2,
-.welcome-Oasis p {
-    text-shadow: 0 1px 1px var(--color-black-purple);
-    font-size: 1rem;
-}
-
-.welcome-Oasis h2 {
-    font-size: 1.7rem;
-}
-
-.welcome-Oasis p {
-    letter-spacing: 1px;
-}
-
-.unwind {
-    position: relative;
-    background: url("../images/unwind-bg.webp") no-repeat center center/cover;
-    height: 175px;
-}
-
-.unwind-text {
-    position: absolute;
-    top: -8px;
-    right: 2px;
-    bottom: 36px;
-    background-color: var(--color-prime);
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    padding-left: 23px;
-    padding-top: 26px;
-    font-size: 0.980rem;
-    box-shadow: 0 1px 6px 0px var(--color-dark-grey);
-    letter-spacing: 1px;
-}
-
-
-/***Treatment Section****/
-.explore-menu {
-    color: var(--color-black-purple);
-    font-size: 1.8rem;
-    max-width: 934px;
-}
-
-.towels img {
-    opacity: 0.4;
-}
-
-
-#treatments h2 {
-    color: var(--color-accent);
-    font-size: 2rem;
-    letter-spacing: 4px;
-    padding-left: 3px;
-    text-shadow: 0 1px 1px var(--color-black-purple);
-}
-
-.experts {
-    background: linear-gradient(rgba(178, 62, 81, 0.6), rgba(178, 62, 81, 0.6)), url("../images/rose-massage-bed.webp") no-repeat center center/cover;
-    margin-bottom: 0;
-    height: 300px;
-    padding-top: 10px;
-}
-
-.experts p {
-    width: 85%;
-    max-width: 1150px;
-    margin: 0 auto 20px;
-    line-height: 25px;
-    font-size: 1.2rem;
-    text-shadow: 0 1px 1px var(--color-black-purple);
-}
-
-
-/*****************************
- Footer & Ul Elements
-******************************/
-footer {
-    grid-area: footer;
-    min-height: 70px;
-    background-color: var(--color-black-purple);
-}
-
-/*UL containing li with social media links*/
-#social-networks {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#social-networks li {
-    margin: 0 10px;
-    padding-top: 5px;
-}
-
-#social-networks li img {
-    width: 50%;
-}
-
-/*Li containing small element*/
-.copy {
-    order: 4;
-    flex: 0 0 100%;
-
-    /*****DEBUG REMOVE*****/
-    /* border: solid rgb(215, 15, 202) 1px; */
-}
-
-/*SMALL Copyright*/
-small {
-    display: block;
-    width: 250px;
-    margin: 0 auto;
-    /*****DEBUG REMOVE*****/
-    /* border: solid rgb(15, 215, 208) 1px; */
-}
-
-/*******************************
-     Media Queries
-********************************/
-
-@media screen and (min-width: 768px) {
-
-    /*HEADER*/
-    header {
-        height: 80px;
+    h1 {
+        font-family: "Amandine", cursive, sans-serif;
     }
 
-    /* Nav Items*/
+    a {
+        text-decoration: none;
+        cursor: pointer;
+    }
 
-    #nav-toggle,
-    .nav-toggle-label {
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .welcome-Oasis h2,
+    .welcome-Oasis,
+    .explore-menu,
+    .experts p,
+    .welcome-Oasis h2,
+    .welcome-Oasis,
+    .explore-menu,
+    .experts p,
+    small,
+    #social-networks li {
+        text-align: center;
+    }
+
+    .hidden {
         display: none;
     }
 
-    nav {
-        position: relative;
-        display: block;
-        width: 80%;
-        top: 0;
-        /****DEBUG REMOVE*******/
-        /* border: solid red 1px; */
+    .hidden {
+        display: none;
     }
 
-    #menu {
+    /*****************************
+ Header & Nav Elements
+******************************/
+    header {
+        grid-area: header;
+        position: fixed;
+        width: 100%;
+        background-color: var(--color-bg);
         display: flex;
-        margin: 0;
-        /****DEBUG REMOVE*******/
-        /* border: solid rgb(0, 217, 255) 1px; */
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        height: 60px;
+        z-index: 10;
+        box-shadow: 0 1px 5px var(--color-black-purple);
+    }
+
+    /** Logo **/
+    #logo {
+        width: 16.5%;
+        max-width: 85px;
+        padding-left: 2px;
+        margin-right: auto;
+    }
+
+
+
+    /*Hamburger Nav Control*/
+    .nav-toggle-label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        width: 60px;
+        height: 55px;
+        align-self: center;
+        margin-left: auto;
+        /*****DEBUG REMOVE*****/
+        /* border: solid rgb(240, 19, 3) 1px; */
+    }
+
+
+    /*Hamburger Bars*/
+    .hamburger {
+        display: block;
+        background-color: var(--color-black-purple);
+        width: 50px;
+        height: 7px;
+        border-radius: 5px;
+        margin: 4px auto;
 
     }
 
+
+    /*NAV */
+    nav {
+        position: absolute;
+        width: 100%;
+        max-width: 900px;
+        top: 62px;
+        left: 0;
+        display: none;
+        /*****DEBUG REMOVE*****/
+        /* border: solid green 1px; */
+    }
+
+    /*HAMBURGER BARS  */
+    .ham-1,
+    .ham-2,
+    .ham-3 {
+        transition: transform 0.5s ease-in,
+            opacity 0 ease-in;
+    }
+
+
+    /*Checkbox to animate hamburger and nav*/
+    #nav-toggle {
+        opacity: 0;
+    }
+
+    #nav-toggle:checked~.nav-toggle-label .ham-1 {
+        transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    #nav-toggle:checked~.nav-toggle-label .ham-2 {
+        opacity: 0;
+    }
+
+    #nav-toggle:checked~.nav-toggle-label .ham-3 {
+        transform: rotate(-45deg) translate(10px, -12px);
+    }
+
+    #nav-toggle:checked~nav {
+        display: block;
+        background-color: var(--color-bg);
+
+
+    }
+
+
+
+    /* UL nav menu*/
     #menu li {
         text-align: center;
-        width: fit-content;
+        width: 50%;
         margin: 15px auto;
-        border: none;
-        border-bottom: 1px solid var(--color-black-purple);
-        border-radius: 2px;
+        border: 1px solid var(--color-black-purple);
+        border-radius: 5px;
+
+
     }
 
+
+
     #menu a {
-        padding: 16px 20px;
+        padding: 8px 40px;
         color: var(--color-black-purple);
-        font-size: 1.2rem;
     }
 
+    #menu a.active {
+        color: var(--color-accent);
+    }
 
+    #menu li:hover {
 
-    /**MAIN FOR ALL PAGES*/
+        background-color: var(--color-black-purple);
+        border-radius: 5px;
+        ;
+    }
+
+    #menu li:hover a {
+        color: var(--color-bg);
+
+    }
+
+    .fix-width {
+        max-width: 1850px;
+    }
+
+    /*****************************
+MAIN for Each Page
+******************************/
+
+    /*MAIN general for all pages*/
     main {
-        margin-top: 80px;
+        grid-area: main;
+        width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 60px;
+        /****DEBUG REMOVE*******/
+        /* border: solid rgb(215, 42, 15) 1px; */
+        margin-top: 60px;
+        /****DEBUG REMOVE*******/
+        /* border: solid rgb(215, 42, 15) 1px; */
     }
-
 
     /*********Index Main Elements ***************/
     /*Top section element*/
 
     #intro {
-        height: 345px;
+        position: relative;
+        padding: 1px;
+        height: 140px;
+        background: url("../images/reception.webp") no-repeat center center/cover;
     }
 
     #reception {
-        height: 63px;
+        position: absolute;
+        width: 100%;
+        height: 47px;
+        background-color: rgba(39, 27, 41, 0.3);
+        margin: 0;
+        left: 0;
+        bottom: 0;
+
     }
 
     #reception h1 {
-        top: 9px;
-        font-size: 2.5rem;
-        text-shadow: 0 4px 6px var(--color-black-purple);
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        padding-left: 1px;
+        top: 5px;
+        left: 0;
+        text-shadow: 0 2px 3px var(--color-black-purple);
     }
 
-    /**Welcome Section Index***/
+    /**Welcome Section***/
 
-    .welcome-Oasis h2 {
-        font-size: 2.2rem;
+    #welcome {
+        margin-top: 60px;
+    }
+
+    .welcome-Oasis {
+        color: var(--color-prime);
+
     }
 
 
+
+    .welcome-Oasis h2,
     .welcome-Oasis p {
-        width: 85%;
-        margin: 18px auto;
-        font-size: 1.5rem;
-        letter-spacing: 2px;
-    }
-
-
-    .unwind {
-        height: 440px;
-    }
-
-
-    .unwind-text {
-        top: 13px;
-        right: 45px;
-        width: 250px;
-        height: 250px;
-        padding-top: 75px;
-        padding-left: 32px;
-        font-size: 1.5rem;
         text-shadow: 0 1px 1px var(--color-black-purple);
-
+        font-size: 1rem;
     }
-
-    /***Treatment Section Index****/
-    .explore-menu {
-        width: 75%;
-        margin: 54px auto;
-        font-size: 2.5rem;
-    }
-
-    #treatments h2 {
-        font-size: 3.5rem;
-        letter-spacing: 6px;
-    }
-
-
-    .experts {
-        height: 400px;
-    }
-
-
-    .experts p {
-        width: 75%;
-        font-size: 1.5rem;
-        line-height: 37px;
-
-    }
-
-
-
-    /****FOOTER ELEMENTS******/
-    footer {
-        padding-top: 2px;
-
-    }
-
-}
-
-
-
-
-
-
-/****************************
-MEDIA QUERY 1024PX
-******************************/
-@media screen and (min-width: 1024px) {
-
-    /*Nav Links*/
-    #menu a {
-        font-size: 1.5rem;
-    }
-
-    /***Treatment Section Index****/
-    .experts p {
-        width: 85%;
-        font-size: 1.7rem;
-        line-height: 45px;
-        letter-spacing: 1px;
-        margin: 23px auto 20px;
-    }
-
-    /****FOOTER ELEMENTS******/
-    footer {
-        min-height: 80px;
-
-    }
-
-
-
-}
-
-
-
-/****************************
-MEDIA QUERY 1264PX
-******************************/
-
-@media screen and (min-width: 1264px) {
-
-    /*********Index Main Elements ***************/
-    /*Top section element*/
-
-    #intro {
-        height: 470px;
-    }
-
-    #reception {
-        height: 75px;
-    }
-
-    #reception h1 {
-        top: 11px;
-        font-size: 3rem;
-    }
-
-
-    /**Welcome Section Index***/
 
     .welcome-Oasis h2 {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
     }
-
 
     .welcome-Oasis p {
-        font-size: 1.8rem;
+        letter-spacing: 1px;
     }
-
 
     .unwind {
-        height: 698px;
+        position: relative;
+        background: url("../images/unwind-bg.webp") no-repeat center center/cover;
+        height: 175px;
     }
-
 
     .unwind-text {
-        top: 44px;
-        right: 87px;
-        width: 350px;
-        height: 350px;
-        padding-top: 104px;
-        padding-left: 56px;
-        font-size: 2rem;
-        text-shadow: 0 2px 2px var(--color-black-purple);
-
+        position: absolute;
+        top: -8px;
+        right: 2px;
+        bottom: 36px;
+        background-color: var(--color-prime);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        padding-left: 23px;
+        padding-top: 26px;
+        font-size: 0.980rem;
+        box-shadow: 0 1px 6px 0px var(--color-dark-grey);
+        letter-spacing: 1px;
     }
 
 
-    /***Treatment Section Index****/
+    /***Treatment Section****/
     .explore-menu {
-        margin: 90px auto;
-        font-size: 3.5rem;
+        color: var(--color-black-purple);
+        font-size: 1.8rem;
+        max-width: 934px;
     }
+
+    .towels img {
+        opacity: 0.4;
+    }
+
 
     #treatments h2 {
-        font-size: 4.5rem;
+        color: var(--color-accent);
+        font-size: 2rem;
+        letter-spacing: 4px;
+        padding-left: 3px;
+        text-shadow: 0 1px 1px var(--color-black-purple);
     }
-
 
     .experts {
-        height: 500px;
+        background: linear-gradient(rgba(178, 62, 81, 0.6), rgba(178, 62, 81, 0.6)), url("../images/rose-massage-bed.webp") no-repeat center center/cover;
+        margin-bottom: 0;
+        height: 300px;
+        padding-top: 10px;
     }
-
 
     .experts p {
-        font-size: 2rem;
-        line-height: 49px;
-
+        width: 85%;
+        max-width: 1150px;
+        margin: 0 auto 20px;
+        line-height: 25px;
+        font-size: 1.2rem;
+        text-shadow: 0 1px 1px var(--color-black-purple);
     }
 
 
-
-
-
-    /****FOOTER ELEMENTS******/
-    footer {
-        min-height: 80px;
-        padding-top: 10px;
-
-    }
-
-
-
-}
-
-
-/****************************
-MEDIA QUERY 1366PX
-******************************/
-@media screen and (min-width: 1366px) {
     /*********Index Main Elements ***************/
     /*Top section element*/
 
     #intro {
-        height: 500px;
+        position: relative;
+        padding: 1px;
+        height: 140px;
+        background: url("../images/reception.webp") no-repeat center center/cover;
     }
 
     #reception {
-        height: 80px;
+        position: absolute;
+        width: 100%;
+        height: 47px;
+        background-color: rgba(39, 27, 41, 0.3);
+        margin: 0;
+        left: 0;
+        bottom: 0;
+
     }
 
     #reception h1 {
-        top: -6px;
-        font-size: 4rem;
+        position: absolute;
+        width: 100%;
+        margin: 0;
+        padding-left: 1px;
+        top: 5px;
+        left: 0;
+        text-shadow: 0 2px 3px var(--color-black-purple);
+    }
+
+    /**Welcome Section***/
+
+    #welcome {
+        margin-top: 60px;
+    }
+
+    .welcome-Oasis {
+        color: var(--color-prime);
+
     }
 
 
-    /**Welcome Section Index***/
+
+    .welcome-Oasis h2,
+    .welcome-Oasis p {
+        text-shadow: 0 1px 1px var(--color-black-purple);
+        font-size: 1rem;
+    }
+
+    .welcome-Oasis h2 {
+        font-size: 1.7rem;
+    }
+
+    .welcome-Oasis p {
+        letter-spacing: 1px;
+    }
 
     .unwind {
-        height: 765px;
+        position: relative;
+        background: url("../images/unwind-bg.webp") no-repeat center center/cover;
+        height: 175px;
     }
-
 
     .unwind-text {
-        right: 48px;
-        width: 450px;
-        height: 450px;
-        padding-top: 126px;
-        padding-left: 58px;
-        font-size: 2.8rem;
+        position: absolute;
+        top: -8px;
+        right: 2px;
+        bottom: 36px;
+        background-color: var(--color-prime);
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        padding-left: 23px;
+        padding-top: 26px;
+        font-size: 0.980rem;
+        box-shadow: 0 1px 6px 0px var(--color-dark-grey);
+        letter-spacing: 1px;
     }
 
 
-    /***Treatment Section Index****/
+    /***Treatment Section****/
+    .explore-menu {
+        color: var(--color-black-purple);
+        font-size: 1.8rem;
+        max-width: 934px;
+    }
+
+    .towels img {
+        opacity: 0.4;
+    }
+
+
     #treatments h2 {
-        font-size: 4.5rem;
+        color: var(--color-accent);
+        font-size: 2rem;
+        letter-spacing: 4px;
+        padding-left: 3px;
+        text-shadow: 0 1px 1px var(--color-black-purple);
+    }
+
+    .experts {
+        background: linear-gradient(rgba(178, 62, 81, 0.6), rgba(178, 62, 81, 0.6)), url("../images/rose-massage-bed.webp") no-repeat center center/cover;
+        margin-bottom: 0;
+        height: 300px;
+        padding-top: 10px;
+    }
+
+    .experts p {
+        width: 85%;
+        max-width: 1150px;
+        margin: 0 auto 20px;
+        line-height: 25px;
+        font-size: 1.2rem;
+        text-shadow: 0 1px 1px var(--color-black-purple);
     }
 
 
-
-
-    /****FOOTER ELEMENTS******/
+    /*****************************
+ Footer & Ul Elements
+******************************/
     footer {
-        min-height: 90px;
-        padding-top: 1px;
+        grid-area: footer;
+        min-height: 70px;
+        background-color: var(--color-black-purple);
+    }
 
+    /*UL containing li with social media links*/
+    #social-networks {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #social-networks li {
+        margin: 0 10px;
+        padding-top: 5px;
     }
 
     #social-networks li img {
-        width: 75%;
+        width: 50%;
     }
 
+    /*Li containing small element*/
+    .copy {
+        order: 4;
+        flex: 0 0 100%;
+
+        /*****DEBUG REMOVE*****/
+        /* border: solid rgb(215, 15, 202) 1px; */
+    }
+
+    /*SMALL Copyright*/
     small {
-        font-size: 0.950rem;
+        display: block;
+        width: 250px;
+        margin: 0 auto;
+        /*****DEBUG REMOVE*****/
+        /* border: solid rgb(15, 215, 208) 1px; */
     }
 
-}
+    /*******************************
+     Media Queries
+********************************/
+
+    @media screen and (min-width: 768px) {
+
+        /*HEADER*/
+        header {
+            height: 80px;
+        }
+
+        /*HEADER*/
+        header {
+            height: 80px;
+        }
+
+        /* Nav Items*/
+
+        #nav-toggle,
+        .nav-toggle-label {
+            display: none;
+        }
+
+        nav {
+            position: relative;
+            display: block;
+            width: 80%;
+            top: 0;
+            /****DEBUG REMOVE*******/
+            /* border: solid red 1px; */
+        }
+
+        #menu {
+            display: flex;
+            margin: 0;
+            /****DEBUG REMOVE*******/
+            /* border: solid rgb(0, 217, 255) 1px; */
+
+        }
+
+        #menu li {
+            text-align: center;
+            width: fit-content;
+            margin: 15px auto;
+            border: none;
+            border-bottom: 1px solid var(--color-black-purple);
+            border-radius: 2px;
+        }
+
+        #menu a {
+            padding: 16px 20px;
+            color: var(--color-black-purple);
+            font-size: 1.2rem;
+        }
 
 
-/******************************
+
+        /**MAIN FOR ALL PAGES*/
+        main {
+            margin-top: 80px;
+        }
+
+
+        /*********Index Main Elements ***************/
+        /*Top section element*/
+
+        #intro {
+            height: 345px;
+        }
+
+        #reception {
+            height: 63px;
+        }
+
+        #reception h1 {
+            top: 9px;
+            font-size: 2.5rem;
+            text-shadow: 0 4px 6px var(--color-black-purple);
+        }
+
+        /**Welcome Section Index***/
+
+        .welcome-Oasis h2 {
+            font-size: 2.2rem;
+        }
+
+
+        .welcome-Oasis p {
+            width: 85%;
+            margin: 18px auto;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+
+
+        .unwind {
+            height: 440px;
+        }
+
+
+        .unwind-text {
+            top: 13px;
+            right: 45px;
+            width: 250px;
+            height: 250px;
+            padding-top: 75px;
+            padding-left: 32px;
+            font-size: 1.5rem;
+            text-shadow: 0 1px 1px var(--color-black-purple);
+
+        }
+
+        /***Treatment Section Index****/
+        .explore-menu {
+            width: 75%;
+            margin: 54px auto;
+            font-size: 2.5rem;
+        }
+
+        #treatments h2 {
+            font-size: 3.5rem;
+            letter-spacing: 6px;
+        }
+
+
+        .experts {
+            height: 400px;
+        }
+
+
+        .experts p {
+            width: 75%;
+            font-size: 1.5rem;
+            line-height: 37px;
+
+        }
+
+
+
+
+
+        /**MAIN FOR ALL PAGES*/
+        main {
+            margin-top: 80px;
+        }
+
+
+        /*********Index Main Elements ***************/
+        /*Top section element*/
+
+        #intro {
+            height: 345px;
+        }
+
+        #reception {
+            height: 63px;
+        }
+
+        #reception h1 {
+            top: 9px;
+            font-size: 2.5rem;
+            text-shadow: 0 4px 6px var(--color-black-purple);
+        }
+
+        /**Welcome Section Index***/
+
+        .welcome-Oasis h2 {
+            font-size: 2.2rem;
+        }
+
+
+        .welcome-Oasis p {
+            width: 85%;
+            margin: 18px auto;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+
+
+        .unwind {
+            height: 440px;
+        }
+
+
+        .unwind-text {
+            top: 13px;
+            right: 45px;
+            width: 250px;
+            height: 250px;
+            padding-top: 75px;
+            padding-left: 32px;
+            font-size: 1.5rem;
+            text-shadow: 0 1px 1px var(--color-black-purple);
+
+        }
+
+        /***Treatment Section Index****/
+        .explore-menu {
+            width: 75%;
+            margin: 54px auto;
+            font-size: 2.5rem;
+        }
+
+        #treatments h2 {
+            font-size: 3.5rem;
+            letter-spacing: 6px;
+        }
+
+
+        .experts {
+            height: 400px;
+        }
+
+
+        .experts p {
+            width: 75%;
+            font-size: 1.5rem;
+            line-height: 37px;
+
+        }
+
+
+
+        /****FOOTER ELEMENTS******/
+        footer {
+            padding-top: 2px;
+            padding-top: 2px;
+
+        }
+
+    }
+
+
+
+
+
+
+    /****************************
+MEDIA QUERY 1024PX
+******************************/
+    /****************************
+MEDIA QUERY 1024PX
+******************************/
+    @media screen and (min-width: 1024px) {
+
+        /*Nav Links*/
+        #menu a {
+            font-size: 1.5rem;
+        }
+
+        /***Treatment Section Index****/
+        .experts p {
+            width: 85%;
+            font-size: 1.7rem;
+            line-height: 45px;
+            letter-spacing: 1px;
+            margin: 23px auto 20px;
+        }
+
+        /***Treatment Section Index****/
+        .experts p {
+            width: 85%;
+            font-size: 1.7rem;
+            line-height: 45px;
+            letter-spacing: 1px;
+            margin: 23px auto 20px;
+        }
+
+        /****FOOTER ELEMENTS******/
+        footer {
+            min-height: 80px;
+
+        }
+
+
+
+    }
+
+
+
+    /****************************
+MEDIA QUERY 1264PX
+******************************/
+
+
+
+    /****************************
+MEDIA QUERY 1264PX
+******************************/
+
+    @media screen and (min-width: 1264px) {
+
+        /*********Index Main Elements ***************/
+        /*Top section element*/
+
+        #intro {
+            height: 470px;
+        }
+
+        #reception {
+            height: 75px;
+        }
+
+        #reception h1 {
+            top: 11px;
+            font-size: 3rem;
+        }
+
+
+        /**Welcome Section Index***/
+
+        .welcome-Oasis h2 {
+            font-size: 2.5rem;
+        }
+
+
+        .welcome-Oasis p {
+            font-size: 1.8rem;
+        }
+
+
+        .unwind {
+            height: 698px;
+        }
+
+
+        .unwind-text {
+            top: 44px;
+            right: 87px;
+            width: 350px;
+            height: 350px;
+            padding-top: 104px;
+            padding-left: 56px;
+            font-size: 2rem;
+            text-shadow: 0 2px 2px var(--color-black-purple);
+
+        }
+
+
+        /***Treatment Section Index****/
+        .explore-menu {
+            margin: 90px auto;
+            font-size: 3.5rem;
+        }
+
+        #treatments h2 {
+            font-size: 4.5rem;
+        }
+
+
+        .experts {
+            height: 500px;
+        }
+
+
+        .experts p {
+            font-size: 2rem;
+            line-height: 49px;
+
+        }
+
+        /*********Index Main Elements ***************/
+        /*Top section element*/
+
+        #intro {
+            height: 470px;
+        }
+
+        #reception {
+            height: 75px;
+        }
+
+        #reception h1 {
+            top: 11px;
+            font-size: 3rem;
+        }
+
+
+        /**Welcome Section Index***/
+
+        .welcome-Oasis h2 {
+            font-size: 2.5rem;
+        }
+
+
+        .welcome-Oasis p {
+            font-size: 1.8rem;
+        }
+
+
+        .unwind {
+            height: 698px;
+        }
+
+
+        .unwind-text {
+            top: 44px;
+            right: 87px;
+            width: 350px;
+            height: 350px;
+            padding-top: 104px;
+            padding-left: 56px;
+            font-size: 2rem;
+            text-shadow: 0 2px 2px var(--color-black-purple);
+
+        }
+
+
+        /***Treatment Section Index****/
+        .explore-menu {
+            margin: 90px auto;
+            font-size: 3.5rem;
+        }
+
+        #treatments h2 {
+            font-size: 4.5rem;
+        }
+
+
+        .experts {
+            height: 500px;
+        }
+
+
+        .experts p {
+            font-size: 2rem;
+            line-height: 49px;
+
+        }
+
+
+
+
+
+        /****FOOTER ELEMENTS******/
+        footer {
+            min-height: 80px;
+            padding-top: 10px;
+
+        }
+
+
+
+    }
+
+
+    /****************************
+MEDIA QUERY 1366PX
+******************************/
+    /****************************
+MEDIA QUERY 1366PX
+******************************/
+    @media screen and (min-width: 1366px) {
+        /*********Index Main Elements ***************/
+        /*Top section element*/
+
+        #intro {
+            height: 500px;
+        }
+
+        #reception {
+            height: 80px;
+        }
+
+        #reception h1 {
+            top: -6px;
+            font-size: 4rem;
+        }
+
+
+        /**Welcome Section Index***/
+
+        .unwind {
+            height: 765px;
+        }
+
+
+        .unwind-text {
+            right: 48px;
+            width: 450px;
+            height: 450px;
+            padding-top: 126px;
+            padding-left: 58px;
+            font-size: 2.8rem;
+        }
+
+
+        /***Treatment Section Index****/
+        #treatments h2 {
+            font-size: 4.5rem;
+        }
+
+
+
+        /*********Index Main Elements ***************/
+        /*Top section element*/
+
+        #intro {
+            height: 500px;
+        }
+
+        #reception {
+            height: 80px;
+        }
+
+        #reception h1 {
+            top: -6px;
+            font-size: 4rem;
+        }
+
+
+        /**Welcome Section Index***/
+
+        .unwind {
+            height: 765px;
+        }
+
+
+        .unwind-text {
+            right: 48px;
+            width: 450px;
+            height: 450px;
+            padding-top: 126px;
+            padding-left: 58px;
+            font-size: 2.8rem;
+        }
+
+
+        /***Treatment Section Index****/
+        #treatments h2 {
+            font-size: 4.5rem;
+        }
+
+
+
+
+        /****FOOTER ELEMENTS******/
+        footer {
+            min-height: 90px;
+            padding-top: 1px;
+
+        }
+
+        #social-networks li img {
+            width: 75%;
+        }
+
+        small {
+            font-size: 0.950rem;
+        }
+
+    }
+
+
+    /******************************
 MEDIA QUERY 1400PX
 ******************************/
-@media screen and (min-width: 1400px) {
-    /*********Index Main Elements ***************/
-    /*Top section element*/
+    @media screen and (min-width: 1400px) {
+        /*********Index Main Elements ***************/
+        /*Top section element*/
 
-    #intro {
-        height: 565px;
+        #intro {
+            height: 565px;
+        }
+
+        #reception {
+            height: 90px;
+        }
+
+        #reception h1 {
+            top: -4px;
+            font-size: 4.5rem;
+        }
+
+
+        /**Welcome Section Index***/
+
+        .welcome-Oasis h2 {
+            font-size: 3.5rem;
+        }
+
+        .welcome-Oasis p {
+            font-size: 2rem;
+            max-width: 1222px;
+        }
+
+        .unwind {
+            height: 765px;
+        }
+
+
+
+        /***Treatment Section Index****/
+
+        #treatments h2 {
+            font-size: 5rem;
+        }
+
+
     }
 
-    #reception {
-        height: 90px;
-    }
 
-    #reception h1 {
-        top: -4px;
-        font-size: 4.5rem;
-    }
-
-
-    /**Welcome Section Index***/
-
-    .welcome-Oasis h2 {
-        font-size: 3.5rem;
-    }
-
-    .welcome-Oasis p {
-        font-size: 2rem;
-        max-width: 1222px;
-    }
-
-    .unwind {
-        height: 765px;
-    }
-
-
-
-    /***Treatment Section Index****/
-
-    #treatments h2 {
-        font-size: 5rem;
-    }
-
-
-}
-
-
-/****************************
+    /****************************
 MEDIA QUERY 1800PX
 ******************************/
-@media screen and (min-width: 1800px) {
+    @media screen and (min-width: 1800px) {
 
-    /**Welcome Section Index***/
+        /**Welcome Section Index***/
 
-    .unwind {
-        height: 999px;
+        .unwind {
+            height: 999px;
+        }
+
+
+        .unwind-text {
+            top: 154px;
+            text-shadow: 0 3px 4px var(--color-black-purple);
+        }
+
     }
-
-
-    .unwind-text {
-        top: 154px;
-        text-shadow: 0 3px 4px var(--color-black-purple);
-    }
-
-}
