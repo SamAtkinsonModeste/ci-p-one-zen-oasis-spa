@@ -6,6 +6,7 @@ VARIABLES
     --color-bg: #f4f6f5;
     --color-light-grey: #848493;
     --color-accent: #b23e51;
+    --color-prime: #c5845a;
     --color-dark-grey: #707070;
     --color-black-purple: #271b29;
 }
@@ -38,8 +39,7 @@ img {
     width: 100%;
 }
 
-h1,
-h2 {
+h1 {
     font-family: "Amandine", cursive, sans-serif;
 }
 
@@ -53,9 +53,17 @@ ul {
     list-style-type: none;
 }
 
+.welcome-Oasis h2,
+.welcome-Oasis,
+.explore-menu,
+.experts p,
 small,
 #social-networks li {
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 /*****************************
@@ -69,8 +77,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 60px;
-    max-height: 80px;
+    height: 60px;
     z-index: 10;
     box-shadow: 0 1px 5px var(--color-black-purple);
 }
@@ -193,6 +200,10 @@ nav {
 
 }
 
+.fix-width {
+    max-width: 1850px;
+}
+
 /*****************************
 MAIN for Each Page
 ******************************/
@@ -200,11 +211,130 @@ MAIN for Each Page
 /*MAIN general for all pages*/
 main {
     grid-area: main;
-    max-width: 1850px;
+    width: 100%;
     margin: 0 auto;
-    /*****DEBUG REMOVE*****/
-    border: solid rgb(215, 42, 15) 1px;
+    margin-top: 60px;
+    /****DEBUG REMOVE*******/
+    /* border: solid rgb(215, 42, 15) 1px; */
 }
+
+/*********Index Main Elements ***************/
+/*Top section element*/
+
+#intro {
+    position: relative;
+    padding: 1px;
+    height: 140px;
+    background: url("../images/reception.webp") no-repeat center center/cover;
+}
+
+#reception {
+    position: absolute;
+    width: 100%;
+    height: 47px;
+    background-color: rgba(39, 27, 41, 0.3);
+    margin: 0;
+    left: 0;
+    bottom: 0;
+
+}
+
+#reception h1 {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-left: 1px;
+    top: 5px;
+    left: 0;
+    text-shadow: 0 2px 3px var(--color-black-purple);
+}
+
+/**Welcome Section***/
+
+#welcome {
+    margin-top: 60px;
+}
+
+.welcome-Oasis {
+    color: var(--color-prime);
+
+}
+
+
+
+.welcome-Oasis h2,
+.welcome-Oasis p {
+    text-shadow: 0 1px 1px var(--color-black-purple);
+    font-size: 1rem;
+}
+
+.welcome-Oasis h2 {
+    font-size: 1.7rem;
+}
+
+.welcome-Oasis p {
+    letter-spacing: 1px;
+}
+
+.unwind {
+    position: relative;
+    background: url("../images/unwind-bg.webp") no-repeat center center/cover;
+    height: 175px;
+}
+
+.unwind-text {
+    position: absolute;
+    top: -8px;
+    right: 2px;
+    bottom: 36px;
+    background-color: var(--color-prime);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-left: 23px;
+    padding-top: 26px;
+    font-size: 0.980rem;
+    box-shadow: 0 1px 6px 0px var(--color-dark-grey);
+    letter-spacing: 1px;
+}
+
+
+/***Treatment Section****/
+.explore-menu {
+    color: var(--color-black-purple);
+    font-size: 1.8rem;
+    max-width: 934px;
+}
+
+.towels img {
+    opacity: 0.4;
+}
+
+
+#treatments h2 {
+    color: var(--color-accent);
+    font-size: 2rem;
+    letter-spacing: 4px;
+    padding-left: 3px;
+    text-shadow: 0 1px 1px var(--color-black-purple);
+}
+
+.experts {
+    background: linear-gradient(rgba(178, 62, 81, 0.6), rgba(178, 62, 81, 0.6)), url("../images/rose-massage-bed.webp") no-repeat center center/cover;
+    margin-bottom: 0;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.experts p {
+    width: 85%;
+    max-width: 1150px;
+    margin: 0 auto 20px;
+    line-height: 25px;
+    font-size: 1.2rem;
+    text-shadow: 0 1px 1px var(--color-black-purple);
+}
+
 
 /*****************************
  Footer & Ul Elements
@@ -258,6 +388,10 @@ small {
 
 @media screen and (min-width: 768px) {
 
+    /*HEADER*/
+    header {
+        height: 80px;
+    }
 
     /* Nav Items*/
 
@@ -298,30 +432,122 @@ small {
         font-size: 1.2rem;
     }
 
-    /****FOOTER ELEMENTS******/
-    footer {
-        padding-top: 10px;
+
+
+    /**MAIN FOR ALL PAGES*/
+    main {
+        margin-top: 80px;
+    }
+
+
+    /*********Index Main Elements ***************/
+    /*Top section element*/
+
+    #intro {
+        height: 345px;
+    }
+
+    #reception {
+        height: 63px;
+    }
+
+    #reception h1 {
+        top: 9px;
+        font-size: 2.5rem;
+        text-shadow: 0 4px 6px var(--color-black-purple);
+    }
+
+    /**Welcome Section Index***/
+
+    .welcome-Oasis h2 {
+        font-size: 2.2rem;
+    }
+
+
+    .welcome-Oasis p {
+        width: 85%;
+        margin: 18px auto;
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+    }
+
+
+    .unwind {
+        height: 440px;
+    }
+
+
+    .unwind-text {
+        top: 13px;
+        right: 45px;
+        width: 250px;
+        height: 250px;
+        padding-top: 75px;
+        padding-left: 32px;
+        font-size: 1.5rem;
+        text-shadow: 0 1px 1px var(--color-black-purple);
+
+    }
+
+    /***Treatment Section Index****/
+    .explore-menu {
+        width: 75%;
+        margin: 54px auto;
+        font-size: 2.5rem;
+    }
+
+    #treatments h2 {
+        font-size: 3.5rem;
+        letter-spacing: 6px;
+    }
+
+
+    .experts {
+        height: 400px;
+    }
+
+
+    .experts p {
+        width: 75%;
+        font-size: 1.5rem;
+        line-height: 37px;
 
     }
 
 
 
+    /****FOOTER ELEMENTS******/
+    footer {
+        padding-top: 2px;
 
-
-
+    }
 
 }
 
 
+
+
+
+
+/****************************
+MEDIA QUERY 1024PX
+******************************/
 @media screen and (min-width: 1024px) {
-
-
 
     /*Nav Links*/
     #menu a {
         font-size: 1.5rem;
     }
 
+    /***Treatment Section Index****/
+    .experts p {
+        width: 85%;
+        font-size: 1.7rem;
+        line-height: 45px;
+        letter-spacing: 1px;
+        margin: 23px auto 20px;
+    }
+
     /****FOOTER ELEMENTS******/
     footer {
         min-height: 80px;
@@ -332,7 +558,82 @@ small {
 
 }
 
+
+
+/****************************
+MEDIA QUERY 1264PX
+******************************/
+
 @media screen and (min-width: 1264px) {
+
+    /*********Index Main Elements ***************/
+    /*Top section element*/
+
+    #intro {
+        height: 470px;
+    }
+
+    #reception {
+        height: 75px;
+    }
+
+    #reception h1 {
+        top: 11px;
+        font-size: 3rem;
+    }
+
+
+    /**Welcome Section Index***/
+
+    .welcome-Oasis h2 {
+        font-size: 2.5rem;
+    }
+
+
+    .welcome-Oasis p {
+        font-size: 1.8rem;
+    }
+
+
+    .unwind {
+        height: 698px;
+    }
+
+
+    .unwind-text {
+        top: 44px;
+        right: 87px;
+        width: 350px;
+        height: 350px;
+        padding-top: 104px;
+        padding-left: 56px;
+        font-size: 2rem;
+        text-shadow: 0 2px 2px var(--color-black-purple);
+
+    }
+
+
+    /***Treatment Section Index****/
+    .explore-menu {
+        margin: 90px auto;
+        font-size: 3.5rem;
+    }
+
+    #treatments h2 {
+        font-size: 4.5rem;
+    }
+
+
+    .experts {
+        height: 500px;
+    }
+
+
+    .experts p {
+        font-size: 2rem;
+        line-height: 49px;
+
+    }
 
 
 
@@ -350,7 +651,51 @@ small {
 }
 
 
+/****************************
+MEDIA QUERY 1366PX
+******************************/
 @media screen and (min-width: 1366px) {
+    /*********Index Main Elements ***************/
+    /*Top section element*/
+
+    #intro {
+        height: 500px;
+    }
+
+    #reception {
+        height: 80px;
+    }
+
+    #reception h1 {
+        top: -6px;
+        font-size: 4rem;
+    }
+
+
+    /**Welcome Section Index***/
+
+    .unwind {
+        height: 765px;
+    }
+
+
+    .unwind-text {
+        right: 48px;
+        width: 450px;
+        height: 450px;
+        padding-top: 126px;
+        padding-left: 58px;
+        font-size: 2.8rem;
+    }
+
+
+    /***Treatment Section Index****/
+    #treatments h2 {
+        font-size: 4.5rem;
+    }
+
+
+
 
     /****FOOTER ELEMENTS******/
     footer {
@@ -365,6 +710,74 @@ small {
 
     small {
         font-size: 0.950rem;
+    }
+
+}
+
+
+/******************************
+MEDIA QUERY 1400PX
+******************************/
+@media screen and (min-width: 1400px) {
+    /*********Index Main Elements ***************/
+    /*Top section element*/
+
+    #intro {
+        height: 565px;
+    }
+
+    #reception {
+        height: 90px;
+    }
+
+    #reception h1 {
+        top: -4px;
+        font-size: 4.5rem;
+    }
+
+
+    /**Welcome Section Index***/
+
+    .welcome-Oasis h2 {
+        font-size: 3.5rem;
+    }
+
+    .welcome-Oasis p {
+        font-size: 2rem;
+        max-width: 1222px;
+    }
+
+    .unwind {
+        height: 765px;
+    }
+
+
+
+    /***Treatment Section Index****/
+
+    #treatments h2 {
+        font-size: 5rem;
+    }
+
+
+}
+
+
+/****************************
+MEDIA QUERY 1800PX
+******************************/
+@media screen and (min-width: 1800px) {
+
+    /**Welcome Section Index***/
+
+    .unwind {
+        height: 999px;
+    }
+
+
+    .unwind-text {
+        top: 154px;
+        text-shadow: 0 3px 4px var(--color-black-purple);
     }
 
 }
