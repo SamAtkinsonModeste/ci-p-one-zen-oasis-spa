@@ -200,6 +200,10 @@ nav {
 
 }
 
+.fix-width {
+    max-width: 1850px;
+}
+
 /*****************************
 MAIN for Each Page
 ******************************/
@@ -207,7 +211,7 @@ MAIN for Each Page
 /*MAIN general for all pages*/
 main {
     grid-area: main;
-    max-width: 1850px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 60px;
     /****DEBUG REMOVE*******/
@@ -323,7 +327,7 @@ main {
 }
 
 .experts p {
-    width: 90%;
+    width: 85%;
     max-width: 1150px;
     margin: 0 auto 20px;
     line-height: 25px;
@@ -518,18 +522,17 @@ small {
 
     }
 
-
-
-
-
-
-
 }
 
 
+
+
+
+
+/****************************
+MEDIA QUERY 1024PX
+******************************/
 @media screen and (min-width: 1024px) {
-
-
 
     /*Nav Links*/
     #menu a {
@@ -554,6 +557,12 @@ small {
 
 
 }
+
+
+
+/****************************
+MEDIA QUERY 1264PX
+******************************/
 
 @media screen and (min-width: 1264px) {
 
@@ -621,7 +630,6 @@ small {
 
 
     .experts p {
-        width: 80%;
         font-size: 2rem;
         line-height: 49px;
 
@@ -643,6 +651,9 @@ small {
 }
 
 
+/****************************
+MEDIA QUERY 1366PX
+******************************/
 @media screen and (min-width: 1366px) {
     /*********Index Main Elements ***************/
     /*Top section element*/
@@ -704,6 +715,9 @@ small {
 }
 
 
+/****************************
+MEDIA QUERY 1400PX
+******************************/
 @media screen and (min-width: 1400px) {
     /*********Index Main Elements ***************/
     /*Top section element*/
@@ -745,5 +759,25 @@ small {
         font-size: 5rem;
     }
 
+
+}
+
+
+/****************************
+MEDIA QUERY 1800PX
+******************************/
+@media screen and (min-width: 1800px) {
+
+    /**Welcome Section Index***/
+
+    .unwind {
+        height: 999px;
+    }
+
+
+    .unwind-text {
+        top: 154px;
+        text-shadow: 0 3px 4px var(--color-black-purple);
+    }
 
 }
