@@ -221,14 +221,24 @@ main {
 /*********Index Main Elements ***************/
 /*Top section element*/
 
-#intro {
+#intro,
+#treatments-intro {
     position: relative;
     padding: 1px;
     height: 140px;
     background: url("../images/reception.webp") no-repeat center center/cover;
 }
 
-#reception {
+
+
+/********Treatment Main********************/
+
+#treatments-intro {
+    background: url("../images/massage-beds.webp") no-repeat center center/cover;
+}
+
+#reception,
+.treatment-bg {
     position: absolute;
     width: 100%;
     height: 47px;
@@ -239,7 +249,8 @@ main {
 
 }
 
-#reception h1 {
+#reception h1,
+.treatment-bg h1 {
     position: absolute;
     width: 100%;
     margin: 0;
@@ -443,15 +454,18 @@ small {
     /*********Index Main Elements ***************/
     /*Top section element*/
 
-    #intro {
+    #intro,
+    #treatments-intro {
         height: 345px;
     }
 
-    #reception {
+    #reception,
+    .treatment-bg {
         height: 63px;
     }
 
-    #reception h1 {
+    #reception h1,
+    .treatment-bg h1 {
         top: 9px;
         font-size: 2.5rem;
         text-shadow: 0 4px 6px var(--color-black-purple);
@@ -569,15 +583,18 @@ MEDIA QUERY 1264PX
     /*********Index Main Elements ***************/
     /*Top section element*/
 
-    #intro {
+    #intro,
+    #treatments-intro {
         height: 470px;
     }
 
-    #reception {
+    #reception,
+    .treatment-bg {
         height: 75px;
     }
 
-    #reception h1 {
+    #reception h1,
+    .treatment-bg h1 {
         top: 11px;
         font-size: 3rem;
     }
@@ -658,15 +675,18 @@ MEDIA QUERY 1366PX
     /*********Index Main Elements ***************/
     /*Top section element*/
 
-    #intro {
+    #intro,
+    #treatments-intro {
         height: 500px;
     }
 
-    #reception {
+    #reception,
+    .treatment-bg {
         height: 80px;
     }
 
-    #reception h1 {
+    #reception h1,
+    .treatment-bg h1 {
         top: -6px;
         font-size: 4rem;
     }
@@ -722,15 +742,18 @@ MEDIA QUERY 1400PX
     /*********Index Main Elements ***************/
     /*Top section element*/
 
-    #intro {
+    #intro,
+    #treatments-intro {
         height: 565px;
     }
 
-    #reception {
+    #reception,
+    .treatment-bg {
         height: 90px;
     }
 
-    #reception h1 {
+    #reception h1,
+    .treatment-bg h1 {
         top: -4px;
         font-size: 4.5rem;
     }
