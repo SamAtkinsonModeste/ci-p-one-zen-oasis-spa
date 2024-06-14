@@ -39,7 +39,8 @@ img {
     width: 100%;
 }
 
-h1 {
+h1,
+.massages h2 {
     font-family: "Amandine", cursive, sans-serif;
 }
 
@@ -53,10 +54,17 @@ ul {
     list-style-type: none;
 }
 
+.massages a {
+    display: block;
+}
+
 .welcome-Oasis h2,
 .welcome-Oasis,
 .explore-menu,
 .experts p,
+#rejuvenate,
+.massages p,
+.massages a,
 small,
 #social-networks li {
     text-align: center;
@@ -65,6 +73,8 @@ small,
 .hidden {
     display: none;
 }
+
+
 
 /*****************************
  Header & Nav Elements
@@ -231,7 +241,7 @@ main {
 
 
 
-/********Treatment Main********************/
+/*Treatment Main*/
 
 #treatments-intro {
     background: url("../images/massage-beds.webp") no-repeat center center/cover;
@@ -311,7 +321,8 @@ main {
 
 
 /***Treatment Section****/
-.explore-menu {
+.explore-menu,
+.rejuvenate {
     color: var(--color-black-purple);
     font-size: 1.8rem;
     max-width: 934px;
@@ -345,6 +356,88 @@ main {
     font-size: 1.2rem;
     text-shadow: 0 1px 1px var(--color-black-purple);
 }
+
+.experts p,
+.rejuvenate,
+.swedish h2,
+.massages a {
+    text-shadow: 0 1px 1px var(--color-black-purple);
+}
+
+
+/**********Treatment Main Elements*********/
+.rejuvenate {
+    color: var(--color-accent);
+    margin: 25px auto 10px;
+}
+
+.escape {
+    background: var(--color-dark-grey);
+    padding: 20px 0;
+}
+
+#massages {
+    position: relative;
+    top: -16px;
+    /****DEBUG REMOVE*******/
+    /* border: solid rgb(95, 15, 215) 1px; */
+
+}
+
+
+.massages {
+    position: relative;
+    /****DEBUG REMOVE*******/
+    border: solid rgb(65, 215, 15) 1px;
+
+}
+
+.hot-stone,
+.couple {
+    margin-top: 10px;
+}
+
+
+.swedish {
+    height: 457px;
+}
+
+.swedish h2 {
+    position: absolute;
+    width: 100%;
+    top: -20px;
+    background: rgba(132, 132, 147, 0.7);
+}
+
+.swedish p {
+    position: absolute;
+    width: 75%;
+    top: 147px;
+    right: 3px;
+    padding: 8px 15px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background: var(--color-light-grey);
+}
+
+.massages a {
+    position: absolute;
+    width: 100px;
+    padding: 5px 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    background: var(--color-bg);
+    box-shadow: 0 2px 5px 0 var(--color-black-purple);
+}
+
+.swedish a {
+    color: var(--color-dark-grey);
+    bottom: 8px;
+    left: 15px;
+}
+
+
+
 
 
 /*****************************
