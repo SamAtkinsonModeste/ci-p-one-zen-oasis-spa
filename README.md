@@ -27,9 +27,14 @@
 ## UX
 
 - [Goals](#goals)
-- [Visitors Goals](#visitors-goals)
+  - [Visitors Goals](#visitors-goals)
 - [Visual Design](#visual-design)
+
+  - [High Fidelity Mockup](#high-fidelity-mockup) -[Fonts](#fonts) -[Styling](#styling)
+
 - [Features](#features)
+  - [Navigation Bars](#naviagation-bars)
+  - [Social Media](social-media)
   - [Home Page](#home-page)
   - [Treatment Page](#treatment-page)
   - [Booking Page ](#booking-page)
