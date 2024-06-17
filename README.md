@@ -7,7 +7,7 @@
 
 # Zen Oasis Spa
 
-[Zen Oasis Spa](https://samatkinsonmodeste.github.io/ci-p-one-zen-oasis-spa/index.html)] website was created as a digital gateway to the serene experience that awaits within its walls. It serves as an invitation for visitors to explore the array of rejuvenating treatments and facilities Zen Oasis offer. The website reflects its commitment to relaxation, wellness, and rejuvenation. It’s designed to provide a glimpse into the tranquil atmosphere and holistic approach that define it's spa, encouraging guests to book their next escape to rejuvenation. 🌸💆‍♀️
+[Zen Oasis Spa](https://samatkinsonmodeste.github.io/ci-p-one-zen-oasis-spa/index.html) website was created as a digital gateway to the serene experience that awaits within its walls. It serves as an invitation for visitors to explore the array of rejuvenating treatments and facilities Zen Oasis offer. The website reflects its commitment to relaxation, wellness, and rejuvenation. It’s designed to provide a glimpse into the tranquil atmosphere and holistic approach that define it's spa, encouraging guests to book their next escape to rejuvenation. 🌸💆‍♀️
 
 ## User Story:
 
@@ -23,3 +23,16 @@
 - High-quality images of the spa’s serene setting and treatment rooms should be displayed to set the mood for relaxation.
 
 ## Table of Contents
+
+## UX
+
+- [Goals](#goals)
+- [Visitors Goals](#visitors-goals)
+- [Visual Design](#visual-design)
+- [Features](#features)
+  - [Home Page](#home-page)
+  - [Treatment Page](#treatment-page)
+  - [Booking Page ](#booking-page)
+- [Author](#author)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments) Coming Soon
