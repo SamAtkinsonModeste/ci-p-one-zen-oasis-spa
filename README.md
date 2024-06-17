@@ -34,5 +34,3 @@
   - [Treatment Page](#treatment-page)
   - [Booking Page ](#booking-page)
 - [Author](#author)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments) Coming Soon
