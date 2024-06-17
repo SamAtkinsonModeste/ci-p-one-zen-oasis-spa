@@ -56,6 +56,7 @@ ul {
 
 .massages a {
     display: block;
+    margin: 0 auto;
 }
 
 .welcome-Oasis h2,
@@ -397,7 +398,7 @@ main {
     position: relative;
     top: -16px;
     /****DEBUG REMOVE*******/
-    border: solid rgb(122, 215, 15) 1px;
+    /* border: solid rgb(122, 215, 15) 1px; */
 
 }
 
@@ -405,7 +406,7 @@ main {
     top: -16px;
     padding-bottom: 20px;
     /****DEBUG REMOVE*******/
-    border: solid rgb(95, 15, 215) 1px;
+    /* border: solid rgb(95, 15, 215) 1px; */
 
 }
 
@@ -414,8 +415,10 @@ main {
 
 .massages {
     position: relative;
+    max-width: 320px;
+    margin: 0 auto;
     /****DEBUG REMOVE*******/
-    border: solid rgb(215, 52, 15) 1px;
+    /* border: solid rgb(215, 52, 15) 1px; */
 
 }
 
@@ -781,9 +784,15 @@ small {
     }
 
     .massages {
-        width: 48%;
         margin: 0 5px;
+        border-radius: 15px;
 
+    }
+
+    .massages h2,
+    .massages img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
 
     .massages a {
@@ -805,13 +814,13 @@ small {
     }
 
     .swedish {
-        width: 50%;
+        /* width: 50%; */
         align-self: center;
         margin: 0 25%;
     }
 
     .facial {
-        width: 50%;
+        /* width: 50%; */
         align-self: center;
         margin: 0 25%;
     }
@@ -837,9 +846,10 @@ small {
     .mask p {
         position: absolute;
         width: 100%;
-        top: 194px;
+        height: 356px;
+        top: 185px;
+        padding: 18px 15px;
         left: 0;
-        padding-bottom: 50px;
         border-radius: 10px;
         font-size: 1.3rem;
         letter-spacing: 1px;
@@ -848,11 +858,12 @@ small {
     .facial p,
     .mud p,
     .mask p {
-        top: 218px;
+        height: 210px;
     }
 
+
     .swedish p {
-        top: 192px;
+        top: 148px;
     }
 
     .facial p,
@@ -864,23 +875,45 @@ small {
     .couple a,
     .hot-stone a {
         bottom: 35px;
-        left: 100px;
+        left: 79px;
+    }
+
+    .hot-stone a {
+        left: 9px;
+
     }
 
 
     .couple a,
-    .hot-stone a {
-        bottom: 60px;
+    .hot-stone a,
+    .facial a,
+    .mud a,
+    .mask a {
+        bottom: 9px;
 
     }
 
+
+
+    .facial a {
+        right: 84px;
+
+    }
+
+    .mask a {
+        left: 31px;
+
+    }
+
+    .mud a {
+        left: 68px;
+
+    }
 
 
     .facial a,
     .mud a,
     .mask a {
-        right: 0;
-        left: 100px;
         bottom: 9px;
     }
 
@@ -937,7 +970,7 @@ MEDIA QUERY 1024PX
     .massages,
     .swedish,
     .facial {
-        width: 31%;
+        /* width: 31%; */
         margin: 40px 5px;
 
     }
@@ -970,31 +1003,41 @@ MEDIA QUERY 1024PX
         top: 185px;
     }
 
-    .hot-stone p {
-        padding-bottom: 117px;
+
+    .swedish a {
+        left: 81px;
     }
 
 
-    .couple p {
-        padding-bottom: 84px;
+    .couple a {
+        left: 84px;
+
     }
 
-    .facial p {
-        padding-bottom: 114px;
+
+    .hot-stone a {
+        left: 40px;
+
+
     }
 
     .swedish a,
     .couple a,
     .hot-stone a {
-        left: 81px;
-        bottom: 12px;
-
+        bottom: 30px;
     }
 
-    .facial a,
-    .mud a,
-    .mask a {
+    .facial a {
+        left: 75px;
+    }
+
+
+    .mud a {
         left: 81px;
+    }
+
+    .mask a {
+        left: 27px;
     }
 
     .facial-heading {
@@ -1102,6 +1145,75 @@ MEDIA QUERY 1264PX
         line-height: 53px;
     }
 
+    .massages {
+        max-width: 400px;
+    }
+
+
+    .swedish,
+    .couple,
+    .hot-stone {
+        height: 660px;
+    }
+
+    .facial,
+    .mud,
+    .mask {
+        height: 475px;
+    }
+
+    .swedish img {
+        height: 267px;
+    }
+
+    .swedish p,
+    .hot-stone p,
+    .couple p {
+        top: 239px;
+    }
+
+
+    .massages a {
+        width: 180px;
+        font-size: 2rem;
+    }
+
+    /* .swedish a {
+        left: 98px;
+    } */
+
+
+    .couple a {
+        left: 114px;
+    }
+
+
+    .hot-stone a {
+        left: 32px;
+    }
+
+    .swedish a,
+    .couple a,
+    .hot-stone a {
+        bottom: 15px;
+    }
+
+
+    .mud a {
+        left: 105px;
+    }
+
+
+    .mask a {
+        left: 48px;
+    }
+
+    .facial a,
+    .mud a,
+    .mask a {
+        bottom: 29px;
+    }
+
     /****FOOTER ELEMENTS******/
     footer {
         min-height: 80px;
@@ -1161,6 +1273,11 @@ MEDIA QUERY 1366PX
     }
 
 
+    /*********TREATMENT PAGE ********************/
+
+    .swedish a {
+        left: 100px;
+    }
 
 
     /****FOOTER ELEMENTS******/
