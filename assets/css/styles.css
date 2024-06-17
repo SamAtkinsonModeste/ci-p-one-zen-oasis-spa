@@ -380,9 +380,16 @@ main {
     margin: 25px auto 10px;
 }
 
-.escape {
+.escape-container {
     background: var(--color-dark-grey);
+    width: 100%;
+    padding: 10px 0;
+}
+
+.escape {
     padding: 20px 0;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #massages,
@@ -751,6 +758,138 @@ small {
 
     }
 
+    /*********TREATMENT PAGE ********************/
+    .rejuvenate {
+        font-size: 2.5rem;
+    }
+
+    .escape {
+        font-size: 1.4rem;
+        letter-spacing: 1px;
+        padding: 20px 60px;
+    }
+
+    #massages,
+    #facial-treatments {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #massages {
+        top: -2px;
+    }
+
+    .massages {
+        width: 48%;
+        margin: 0 5px;
+
+    }
+
+    .massages a {
+        width: 150px;
+        font-size: 1.5rem;
+    }
+
+    .swedish,
+    .hot-stone,
+    .couple {
+        height: 584px;
+    }
+
+    .facial,
+    .mud,
+    .mask {
+        height: 450px;
+
+    }
+
+    .swedish {
+        width: 50%;
+        align-self: center;
+        margin: 0 25%;
+    }
+
+    .facial {
+        width: 50%;
+        align-self: center;
+        margin: 0 25%;
+    }
+
+    .swedish h2,
+    .hot-stone h2,
+    .couple h2,
+    .facial h2,
+    .mud h2,
+    .mask h2 {
+        top: -26px;
+        padding-left: 5px;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+
+    .swedish p,
+    .hot-stone p,
+    .couple p,
+    .facial p,
+    .mud p,
+    .mask p {
+        position: absolute;
+        width: 100%;
+        top: 194px;
+        left: 0;
+        padding-bottom: 50px;
+        border-radius: 10px;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .facial p,
+    .mud p,
+    .mask p {
+        top: 218px;
+    }
+
+    .swedish p {
+        top: 192px;
+    }
+
+    .facial p,
+    .mask p {
+        padding-bottom: 83px;
+    }
+
+    .swedish a,
+    .couple a,
+    .hot-stone a {
+        bottom: 35px;
+        left: 100px;
+    }
+
+
+    .couple a,
+    .hot-stone a {
+        bottom: 60px;
+
+    }
+
+
+
+    .facial a,
+    .mud a,
+    .mask a {
+        right: 0;
+        left: 100px;
+        bottom: 9px;
+    }
+
+    /*****Facial Therapy Articles *******/
+
+    .facial-heading {
+        width: 100%;
+        font-size: 1.8rem;
+    }
 
 
     /****FOOTER ELEMENTS******/
@@ -784,6 +923,84 @@ MEDIA QUERY 1024PX
         letter-spacing: 1px;
         margin: 23px auto 20px;
     }
+
+    /*********TREATMENT PAGE ********************/
+
+
+    .escape {
+        font-size: 1.4rem;
+        padding: 20px 0;
+        line-height: 43px;
+    }
+
+
+    .massages,
+    .swedish,
+    .facial {
+        width: 31%;
+        margin: 40px 5px;
+
+    }
+
+    .swedish,
+    .facial {
+        align-self: flex-start;
+    }
+
+
+    .swedish img {
+        height: 210px;
+    }
+
+    .swedish,
+    .hot-stone,
+    .couple {
+        height: 620px;
+    }
+
+    .swedish p,
+    .hot-stone p,
+    .couple p {
+        top: 182px;
+    }
+
+    .facial p,
+    .mud p,
+    .mask p {
+        top: 185px;
+    }
+
+    .hot-stone p {
+        padding-bottom: 117px;
+    }
+
+
+    .couple p {
+        padding-bottom: 84px;
+    }
+
+    .facial p {
+        padding-bottom: 114px;
+    }
+
+    .swedish a,
+    .couple a,
+    .hot-stone a {
+        left: 81px;
+        bottom: 12px;
+
+    }
+
+    .facial a,
+    .mud a,
+    .mask a {
+        left: 81px;
+    }
+
+    .facial-heading {
+        font-size: 2rem;
+    }
+
 
     /****FOOTER ELEMENTS******/
     footer {
@@ -878,6 +1095,12 @@ MEDIA QUERY 1264PX
 
 
 
+    /*********TREATMENT PAGE ********************/
+
+    .escape {
+        font-size: 1.6rem;
+        line-height: 53px;
+    }
 
     /****FOOTER ELEMENTS******/
     footer {
