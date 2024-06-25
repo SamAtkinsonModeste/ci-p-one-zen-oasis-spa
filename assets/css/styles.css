@@ -295,7 +295,7 @@ main {
 }
 
 .welcome-Oasis {
-    color: var(--color-accent);
+    color: var(--color-prime);
 
 }
 
@@ -327,7 +327,6 @@ main {
     right: 2px;
     bottom: 36px;
     background-color: var(--color-prime);
-    color: var(--color-black-purple);
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -922,7 +921,7 @@ small {
         padding-top: 75px;
         padding-left: 32px;
         font-size: 1.5rem;
-        text-shadow: 0 1px 1px var(--color-bg);
+        text-shadow: 0 1px 1px var(--color-black-purple);
 
 
     }
