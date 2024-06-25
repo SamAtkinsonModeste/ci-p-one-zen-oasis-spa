@@ -25,8 +25,33 @@ body {
     color: var(--color-bg);
 }
 
-.container {
+
+.input,
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+fieldset,
+.swedish h2,
+.hot-stone h2,
+.couple h2,
+.facial h2,
+.mud h2,
+.mask h2,
+.escape-container,
+#reception h1,
+.treatment-bg h1,
+#reception,
+.treatment-bg,
+main,
+nav,
+header,
+.container,
+img {
     width: 100%;
+}
+
+.container {
     display: grid;
     height: 100vh;
     grid-template-columns: 100%;
@@ -35,9 +60,6 @@ body {
 
 }
 
-img {
-    width: 100%;
-}
 
 h1,
 .massages h2,
@@ -61,6 +83,18 @@ ul {
     margin: 0 auto;
 }
 
+
+small,
+#social-networks,
+form,
+.form-bg,
+.massages,
+.escape,
+main,
+.massages a {
+    margin: 0 auto;
+}
+
 .welcome-Oasis h2,
 .welcome-Oasis,
 .explore-menu,
@@ -76,6 +110,8 @@ small,
 }
 
 
+
+
 .hot-stone h2,
 .mud h2 {
     text-align: right;
@@ -86,6 +122,25 @@ small,
     display: none;
 }
 
+.unwind-text,
+legend,
+label,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus,
+select:focus label,
+.rejuvenate,
+.swedish h2,
+.hot-stone h2,
+.massages a,
+.experts p,
+#treatments h2,
+.welcome-Oasis h2,
+.welcome-Oasis p {
+    text-shadow: 0 1px 1px var(--color-black-purple);
+}
+
 
 
 /*****************************
@@ -94,7 +149,6 @@ small,
 header {
     grid-area: header;
     position: fixed;
-    width: 100%;
     background-color: var(--color-bg);
     display: flex;
     justify-content: space-between;
@@ -110,8 +164,6 @@ header {
     height: 60px;
     padding-left: 2px;
     margin-right: auto;
-    /*****DEBUG REMOVE*****/
-    border: solid rgb(3, 19, 240) 1px;
 }
 
 
@@ -125,17 +177,14 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     width: 60px;
     height: 55px;
     align-self: center;
     margin-left: auto;
-    /*****DEBUG REMOVE*****/
-    /* border: solid rgb(240, 19, 3) 1px; */
 }
 
 
-/*Hamburger Bars*/
+/*Hamburger Container*/
 .hamburger {
     display: block;
     background-color: var(--color-black-purple);
@@ -150,16 +199,13 @@ header {
 /*NAV */
 nav {
     position: absolute;
-    width: 100%;
     max-width: 900px;
     top: 62px;
     left: 0;
     display: none;
-    /*****DEBUG REMOVE*****/
-    /* border: solid green 1px; */
 }
 
-/*HAMBURGER BARS  */
+/*HAMBURGER BARS*/
 .ham-1,
 .ham-2,
 .ham-3 {
@@ -239,11 +285,7 @@ MAIN for Each Page
 /*MAIN general for all pages*/
 main {
     grid-area: main;
-    width: 100%;
-    margin: 0 auto;
     margin-top: 60px;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(215, 42, 15) 1px; */
 }
 
 /*********Index Main Elements ***************/
@@ -259,7 +301,7 @@ main {
 
 
 
-/*Treatment Main*/
+/*Treatment Page Main*/
 
 #treatments-intro {
     background: url("../images/massage-beds.webp") no-repeat center center/cover;
@@ -268,7 +310,6 @@ main {
 #reception,
 .treatment-bg {
     position: absolute;
-    width: 100%;
     height: 47px;
     background-color: rgba(39, 27, 41, 0.3);
     margin: 0;
@@ -280,7 +321,6 @@ main {
 #reception h1,
 .treatment-bg h1 {
     position: absolute;
-    width: 100%;
     margin: 0;
     padding-left: 1px;
     top: 5px;
@@ -288,7 +328,7 @@ main {
     text-shadow: 0 2px 3px var(--color-black-purple);
 }
 
-/**Welcome Section***/
+/**Welcome Section Index page***/
 
 #welcome {
     margin-top: 60px;
@@ -303,7 +343,6 @@ main {
 
 .welcome-Oasis h2,
 .welcome-Oasis p {
-    text-shadow: 0 1px 1px var(--color-black-purple);
     font-size: 1rem;
 }
 
@@ -338,7 +377,7 @@ main {
 }
 
 
-/***Treatment Section****/
+/***Treatment Section Index page****/
 .explore-menu,
 .rejuvenate {
     color: var(--color-black-purple);
@@ -356,7 +395,6 @@ main {
     font-size: 2rem;
     letter-spacing: 4px;
     padding-left: 3px;
-    text-shadow: 0 1px 1px var(--color-black-purple);
 }
 
 .experts {
@@ -372,19 +410,12 @@ main {
     margin: 0 auto 20px;
     line-height: 25px;
     font-size: 1.2rem;
-    text-shadow: 0 1px 1px var(--color-black-purple);
-}
-
-.experts p,
-.rejuvenate,
-.swedish h2,
-.hot-stone h2,
-.massages a {
-    text-shadow: 0 1px 1px var(--color-black-purple);
 }
 
 
-/**********Treatment Page*********/
+
+
+/**********Treatment Main Page*********/
 .rejuvenate {
     color: var(--color-accent);
     margin: 25px auto 10px;
@@ -392,30 +423,23 @@ main {
 
 .escape-container {
     background: var(--color-dark-grey);
-    width: 100%;
     padding: 10px 0;
 }
 
 .escape {
     padding: 20px 0;
     max-width: 1000px;
-    margin: 0 auto;
 }
 
 #massages,
 #facial-treatments {
     position: relative;
     top: -16px;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(122, 215, 15) 1px; */
-
 }
 
 #massages {
     top: -16px;
     padding-bottom: 20px;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(95, 15, 215) 1px; */
 
 }
 
@@ -425,10 +449,6 @@ main {
 .massages {
     position: relative;
     max-width: 320px;
-    margin: 0 auto;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(215, 52, 15) 1px; */
-
 }
 
 .hot-stone,
@@ -456,7 +476,6 @@ main {
 .mud h2,
 .mask h2 {
     position: absolute;
-    width: 100%;
     top: -20px;
     padding-left: 5px;
     background: rgba(132, 132, 147, 0.7);
@@ -586,7 +605,7 @@ main {
 }
 
 
-/*********BOOKING PAGE***************/
+/*********BOOKING Main PAGE***************/
 #booking-form {
     position: relative;
     top: -9px;
@@ -611,30 +630,22 @@ main {
     background-size: cover, 60%, 50%;
     width: 99%;
     max-width: 760px;
-    margin: 0 auto;
     border-radius: 10px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    /* background: rgba(39, 27, 41, 0.7); */
     width: 99%;
     max-width: 760px;
-    margin: 0 auto;
     margin-top: 20px;
     padding: 1em;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(242, 10, 10) 1px; */
-
 }
 
 fieldset {
     border: 0;
     margin: 40px 0;
     align-self: center;
-    width: 100%;
-    /****DEBUG REMOVE*******/
     border: solid var(--color-bg) 1px;
     border-radius: 5px;
     padding: 1em 1em;
@@ -643,7 +654,6 @@ fieldset {
 
 legend,
 label {
-    text-shadow: 0 1px 1px var(--color-black-purple);
     font-size: 1.3rem;
     letter-spacing: 1px;
 }
@@ -666,7 +676,6 @@ select {
     border-radius: 8px;
     box-shadow: inset 0 0 2px 1px var(--color-accent);
     font-size: 1.1em;
-    width: 100%;
     -webkit-transition: background-color, border-bottom 0.6s ease;
     -moz-transition: background-color, border-bottom 0.6s ease;
     -o-transition: background-color, border-bottom 0.6s ease;
@@ -676,14 +685,6 @@ select {
 }
 
 
-
-/*input divs*/
-.input {
-    width: 100%;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(242, 10, 242) 1px; */
-
-}
 
 legend~.input {
     margin-top: 20px;
@@ -703,8 +704,9 @@ button[type="submit"] {
     letter-spacing: 1px;
 }
 
-::placeholder,
+
 /* Chrome/Opera/Safari */
+::placeholder,
 ::-webkit-input-placeholder {
 
     font-style: italic;
@@ -713,9 +715,8 @@ button[type="submit"] {
 }
 
 
-
-input[id="name"]::-webkit-input-placeholder,
 /* Chrome/Opera/Safari */
+input[id="name"]::-webkit-input-placeholder,
 input[id="email"]::-webkit-input-placeholder {
 
     font-style: italic;
@@ -724,9 +725,8 @@ input[id="email"]::-webkit-input-placeholder {
 }
 
 
-
-input[id="name"]::-moz-input-placeholder,
 /* Firefox 19+ */
+input[id="name"]::-moz-input-placeholder,
 input[id="email"]::-moz-input-placeholder {
 
     font-style: italic;
@@ -735,9 +735,8 @@ input[id="email"]::-moz-input-placeholder {
 }
 
 
-
-input[id="name"]:-ms-input-placeholder,
 /* IE 10+ */
+input[id="name"]:-ms-input-placeholder,
 input[id="email"]:-ms-input-placeholder {
 
     font-style: italic;
@@ -746,8 +745,8 @@ input[id="email"]:-ms-input-placeholder {
 }
 
 
-input[id="name"]:-moz-input-placeholder,
 /* Firefox 18- */
+input[id="name"]:-moz-input-placeholder,
 input[id="email"]:-moz-input-placeholder {
 
     font-style: italic;
@@ -762,7 +761,6 @@ select:focus,
 select:focus label {
     background-color: var(--color-accent);
     color: var(--color-bg);
-    text-shadow: 0 1px 1px var(--color-black-purple);
     box-shadow: inset 0 0 2px 1px var(--color-bg);
 
 }
@@ -781,7 +779,6 @@ footer {
 /*UL containing li with social media links*/
 #social-networks {
     width: 80%;
-    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -801,18 +798,12 @@ footer {
 .copy {
     order: 4;
     flex: 0 0 100%;
-
-    /*****DEBUG REMOVE*****/
-    /* border: solid rgb(215, 15, 202) 1px; */
 }
 
 /*SMALL Copyright*/
 small {
     display: block;
     width: 250px;
-    margin: 0 auto;
-    /*****DEBUG REMOVE*****/
-    /* border: solid rgb(15, 215, 208) 1px; */
 }
 
 /*******************************
@@ -838,16 +829,11 @@ small {
         display: block;
         width: 80%;
         top: 0;
-        /****DEBUG REMOVE*******/
-        /* border: solid red 1px; */
     }
 
     #menu {
         display: flex;
         margin: 0;
-        /****DEBUG REMOVE*******/
-        /* border: solid rgb(0, 217, 255) 1px; */
-
     }
 
     #menu li {
@@ -921,9 +907,6 @@ small {
         padding-top: 75px;
         padding-left: 32px;
         font-size: 1.5rem;
-        text-shadow: 0 1px 1px var(--color-black-purple);
-
-
     }
 
     /***Treatment Section Index****/
@@ -1003,17 +986,12 @@ small {
 
     }
 
-    .swedish {
-        /* width: 50%; */
+    .swedish,
+    .facial {
         align-self: center;
         margin: 0 25%;
     }
 
-    .facial {
-        /* width: 50%; */
-        align-self: center;
-        margin: 0 25%;
-    }
 
     .swedish h2,
     .hot-stone h2,
@@ -1215,7 +1193,6 @@ MEDIA QUERY 1024PX
     .massages,
     .swedish,
     .facial {
-        /* width: 31%; */
         margin: 40px 5px;
 
     }
