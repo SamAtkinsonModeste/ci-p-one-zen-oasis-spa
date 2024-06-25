@@ -6,7 +6,7 @@ VARIABLES
     --color-bg: rgb(244, 246, 245);
     --color-light-grey: rgb(132, 132, 147);
     --color-accent: rgb(178, 62, 81);
-    --color-prime: rgb(197, 132, 90);
+    --color-prime: rgb(145, 99, 68);
     --color-dark-grey: rgb(112, 112, 112);
     --color-black-purple: rgb(39, 27, 41);
 }
@@ -106,11 +106,17 @@ header {
 
 /** Logo **/
 #logo {
-    width: 16.5%;
-    max-width: 85px;
+    width: 53px;
+    height: 60px;
     padding-left: 2px;
     margin-right: auto;
+    /*****DEBUG REMOVE*****/
+    border: solid rgb(3, 19, 240) 1px;
 }
+
+
+
+
 
 
 
@@ -289,7 +295,7 @@ main {
 }
 
 .welcome-Oasis {
-    color: var(--color-prime);
+    color: var(--color-accent);
 
 }
 
@@ -321,6 +327,7 @@ main {
     right: 2px;
     bottom: 36px;
     background-color: var(--color-prime);
+    color: var(--color-black-purple);
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -651,7 +658,7 @@ input[type="email"],
 input[type="date"],
 select {
     background: var(--color-bg);
-    color: var(--color-light-grey);
+    color: var(--color-black-purple);
     margin: 0;
     margin-bottom: 30px;
     padding: 15px;
@@ -915,7 +922,8 @@ small {
         padding-top: 75px;
         padding-left: 32px;
         font-size: 1.5rem;
-        text-shadow: 0 1px 1px var(--color-black-purple);
+        text-shadow: 0 1px 1px var(--color-bg);
+
 
     }
 
