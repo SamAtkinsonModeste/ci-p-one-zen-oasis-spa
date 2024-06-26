@@ -29,9 +29,9 @@
 - [Goals](#goals)
   - [Visitors Goals](#visitors-goals)
 - [Visual Design](#visual-design)
-
-  - [High Fidelity Mockup](#high-fidelity-mockup) -[Fonts](#fonts) -[Styling](#styling)
-
+  - [High Fidelity Mockup](#high-fidelity-mockup)
+  - [Fonts](#fonts)
+  - [Styling](#styling)
 - [Features](#features)
   - [Navigation Bars](#naviagation-bars)
   - [Home Page](#home-page)
@@ -39,3 +39,23 @@
   - [Booking Page ](#booking-page)
   - [Social Media](social-media)
 - [Author](#author)
+
+## Goals
+
+### Visitors Goals
+
+User goals are:
+
+- Get a sense of the spa's ambience
+- View all treatment massages available
+- Book a time and date for their treatment
+
+### Visual Design
+
+As I had a very good idea of what I wanted the site to look like, I went straight to a high-fidelity mockup using Adobe XD.
+
+
+
+<div align="center">
+  <img src="assets/images/high-f-mockups.png" style="background-color:black" alt="Home page of Zen Spa">
+</div>
