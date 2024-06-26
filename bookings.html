@@ -41,19 +41,24 @@
 <body>
     <!--Grid Container-->
     <div class="container">
+
         <!--Header-->
         <header>
             <div id="logo">
-                <a id="logo" href="index.html" aria-label="Go to Zen Oasis home page">
+                <a class="logo" href="index.html" aria-label="Go to Zen Oasis home page">
                     <img src="assets/images/spa-logo-text.webp" alt="Zen Oasis Logo">
                 </a>
             </div>
+
+            <!-- Mobile Hamburger with checkbox switch-->
             <input type="checkbox" name="nav-toggle" id="nav-toggle">
             <label class="nav-toggle-label" for="nav-toggle" aria-label="Open navigation for mobiles">
                 <span class="hamburger ham-1"></span>
                 <span class="hamburger ham-2"></span>
                 <span class="hamburger ham-3"></span>
             </label>
+
+            <!-- NAV -->
             <nav>
                 <ul id="menu">
                     <li><a href="index.html" aria-label="Go to Zen Oasis home page">Home</a></li>
@@ -70,8 +75,9 @@
             <section id="booking-form">
                 <h1>Book Your Treatments</h1>
                 <div class="form-bg">
-                    <form action="bookings.html" method="post">
+                    <form action="https://formdump.codeinstitute.net/" target="_blank">
 
+                        <!-- Users Contact Details Fieldset-->
                         <fieldset class="contact-details">
                             <legend>Contact Information</legend>
                             <div class="input details">
@@ -83,15 +89,14 @@
                                 <input type="email" id="email" name="user_email" placeholder="anniereid@gmail.com"
                                     required>
                             </div>
-
                         </fieldset>
 
+                        <!-- Book Treatment Fieldset-->
                         <fieldset class="book-treats">
                             <legend>Treatment</legend>
                             <div class="input" id="select-massage">
                                 <label for="massage">Choose which Treatment:</label>
-                                <select name="massge" id="massage">
-                                    <option selected hidden disabled>List of Massages</option>
+                                <select name="massage" id="massage" required>
                                     <optgroup label="Body Massages">
                                         <option value="swedish">Swedish Massage</option>
                                         <option value="hot-stone">Hot Stone Massage</option>
@@ -106,7 +111,7 @@
                             </div>
                             <div class="input" id="date">
                                 <label for="massage-time">Choose Date of Treatment:</label>
-                                <input type="date" name="massage-time" id="massage-time">
+                                <input type="date" name="massage-time" id="massage-time" required>
                             </div>
                         </fieldset>
                         <button type="submit">Submit Booking</button>
@@ -114,6 +119,7 @@
                 </div>
             </section>
         </main>
+
         <!-- Footer -->
         <footer>
             <ul id="social-networks">
@@ -138,11 +144,10 @@
                         <img src="assets/images/twitter.webp" alt="Twitter's Logo">
                     </a>
                 </li>
-
-
             </ul>
-
         </footer>
+
+
     </div>
 </body>
 
