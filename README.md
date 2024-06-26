@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/images/spa-logo-text.webp" style="background-color:rgb(244, 246, 245); border-radius: 10px; width: 100px" alt="Zen Spa Logo">
+  <img src="assets/images/spa-logo-text.webp" style="background-color:#f4f6f5; border-radius: 10px; width: 100px" alt="Zen Spa Logo">
 </div>
 <div align="center">
-  <img src="assets/images/zen-oasis-all-devices.png" style="background-color:black" alt="Home page of Zen Spa">
+  <img src="assets/images/zen-oasis-all-devices.png" alt="Home page of Zen Spa">
 </div>
 
 # Zen Oasis Spa
