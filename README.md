@@ -2,7 +2,7 @@
   <img src="assets/images/spa-logo-text.webp" style="background-color:rgb(244, 246, 245); border-radius: 10px; width: 100px" alt="Zen Spa Logo">
 </div>
 <div align="center">
-  <img src="assets/images/spa-devices.png" style="background-color:black" alt="Home page of Zen Spa">
+  <img src="assets/images/zen-oasis-all-devices.png" style="background-color:black" alt="Home page of Zen Spa">
 </div>
 
 # Zen Oasis Spa
@@ -34,8 +34,8 @@
 
 - [Features](#features)
   - [Navigation Bars](#naviagation-bars)
-  - [Social Media](social-media)
   - [Home Page](#home-page)
   - [Treatment Page](#treatment-page)
   - [Booking Page ](#booking-page)
+  - [Social Media](social-media)
 - [Author](#author)
