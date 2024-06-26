@@ -31,7 +31,7 @@
 - [Visual Design](#visual-design)
   - [High Fidelity Mockup](#high-fidelity-mockup)
   - [Fonts](#fonts)
-  - [Styling](#styling)
+  - [Colour](#colour-palette)
 - [Features](#features)
   - [Navigation Bars](#naviagation-bars)
   - [Home Page](#home-page)
@@ -52,10 +52,33 @@ User goals are:
 
 ### Visual Design
 
-As I had a very good idea of what I wanted the site to look like, I went straight to a high-fidelity mockup using Adobe XD.
+#### High Fidelity Mockup
 
+With a clear idea of the site's look, I went straight to a high-fidelity mockup using Adobe XD.
 
+> The standard process is to create a Wireframe first.
 
 <div align="center">
-  <img src="assets/images/high-f-mockups.png" style="background-color:black" alt="Home page of Zen Spa">
+  <img src="assets/images/high-f-mockups.png" style="background-color:black" alt="Home, Treatment and Booking mobile pages mockups">
 </div>
+
+### Fonts
+
+- Adobe's [Amandine](https://fonts.adobe.com/fonts/amandine) font has clean lines and graceful curves that evoke a sense of elegance and tranquillity.
+  It complements the serene atmosphere of Zen Oasis, conveying relaxation and sophistication.
+  Amandine’s legibility ensures that headings are easy to read, even at larger sizes. The balanced letterforms enhance clarity, making it ideal for titles and headers. Amandine works well across various devices and screen resolutions. Whether on a desktop or mobile, it maintains its visual appeal.
+
+![Screenshot of Adobe Amandine Font](assets/images/amandine-font.png)
+
+- Adobe's [Aptly](https://fonts.adobe.com/fonts/aptly) font was used for body text. It is also a sans-serif font, and the combination of **Amandine** (for headings) and **Aptly** (for body text) creates a pleasing contrast. **Amandine’s** sophistication draws attention, while **Aptly** maintains legibility, striking a harmonious balance.
+  **Aptly’s** contemporary aesthetics align with the site's modern and serene vibe. Its simplicity conveys professionalism and a sense of calm. Aptly adapts well to various screen sizes, ensuring a consistent experience on desktops, tablets, and mobiles.
+
+![Screenshot of Adobe Aptly Font](assets/images/aptly-font.png)
+
+### Colour Palette
+
+Colour Palette for the site.
+
+![Screenshot of Colours](assets/images/color-palette.png)
+
+## Features
