@@ -78,25 +78,26 @@
                     <form action="https://formdump.codeinstitute.net/" target="_blank">
 
                         <!-- Users Contact Details Fieldset-->
-                        <fieldset class="contact-details">
+                        <fieldset class="contact-details wid">
                             <legend>Contact Information</legend>
-                            <div class="input details">
+                            <div class="input details wid">
                                 <label for="name">Full Name:</label>
-                                <input type="text" id="name" name="user_name" placeholder="Mrs Anne Ried" required>
-                            </div>
-                            <div class="input details">
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="user_email" placeholder="anniereid@gmail.com"
+                                <input class="wid" type="text" id="name" name="user_name" placeholder="Mrs Anne Ried"
                                     required>
+                            </div>
+                            <div class="input details wid">
+                                <label for="email">Email:</label>
+                                <input class="wid" type="email" id="email" name="user_email"
+                                    placeholder="anniereid@gmail.com" required>
                             </div>
                         </fieldset>
 
                         <!-- Book Treatment Fieldset-->
-                        <fieldset class="book-treats">
+                        <fieldset class="book-treats wid">
                             <legend>Treatment</legend>
-                            <div class="input" id="select-massage">
+                            <div class="input wid" id="select-massage">
                                 <label for="massage">Choose which Treatment:</label>
-                                <select name="massage" id="massage" required>
+                                <select class="wid" name="massage" id="massage" required>
                                     <optgroup label="Body Massages">
                                         <option value="swedish">Swedish Massage</option>
                                         <option value="hot-stone">Hot Stone Massage</option>
@@ -109,9 +110,9 @@
                                     </optgroup>
                                 </select>
                             </div>
-                            <div class="input" id="date">
+                            <div class="input wid" id="date">
                                 <label for="massage-time">Choose Date of Treatment:</label>
-                                <input type="date" name="massage-time" id="massage-time" required>
+                                <input class="wid" type="date" name="massage-time" id="massage-time" required>
                             </div>
                         </fieldset>
                         <button type="submit">Submit Booking</button>
