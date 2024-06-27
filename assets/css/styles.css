@@ -252,7 +252,7 @@ main {
     grid-area: main;
     margin-top: 60px;
     /****DEBUG REMOVE*******/
-    border: solid rgb(242, 10, 10) 10px;
+    /* border: solid rgb(242, 10, 10) 10px; */
 
 }
 
@@ -574,11 +574,22 @@ main {
 
 
 /*********BOOKING Main PAGE***************/
-#booking-form {
-    position: relative;
-    top: -9px;
-
+/*BOOKING MAIN ELEMENT*/
+#main-book,
+#book-footer {
+    position: absolute;
 }
+
+#main-book {
+    top: 60px;
+}
+
+#book-footer {
+    bottom: -165px;
+}
+
+
+
 
 
 
@@ -599,6 +610,7 @@ main {
     width: 99%;
     max-width: 760px;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 form {
@@ -608,6 +620,7 @@ form {
     max-width: 760px;
     margin-top: 20px;
     padding: 1em;
+
 }
 
 fieldset {
@@ -1124,6 +1137,10 @@ small {
         padding-top: 2px;
 
 
+    }
+
+    #book-footer {
+        bottom: -100px;
     }
 
 }
