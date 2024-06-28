@@ -12,6 +12,7 @@ VARIABLES
 }
 
 /*Box Sizing*/
+
 * {
     box-sizing: border-box;
 }
@@ -19,13 +20,12 @@ VARIABLES
 /**********************************
 General Styling
 ***********************************/
+
 body {
     font: normal 1em/1.6 "Aptly", sans-serif;
     background: var(--color-bg);
     color: var(--color-bg);
 }
-
-
 
 .wid,
 img {
@@ -38,9 +38,7 @@ img {
     grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: "header" "main" "footer";
-
 }
-
 
 h1,
 .massages h2,
@@ -63,24 +61,13 @@ ul {
     display: block;
 }
 
-
-
-
-
-
-
-
 .marg-cen {
     margin: 0 auto;
 }
 
-
 .txt-cen {
     text-align: center;
 }
-
-
-
 
 .hot-stone h2,
 .mud h2 {
@@ -92,8 +79,6 @@ ul {
     display: none;
 }
 
-
-
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="date"]:focus,
@@ -103,11 +88,10 @@ select:focus label,
     text-shadow: 0 1px 1px var(--color-black-purple);
 }
 
-
-
 /*****************************
  Header & Nav Elements
 ******************************/
+
 header {
     grid-area: header;
     position: fixed;
@@ -118,12 +102,10 @@ header {
     height: 60px;
     z-index: 10;
     box-shadow: 0 1px 5px var(--color-black-purple);
-    /*****DEBUG REMOVE*****/
-    border: solid green 1px;
-
 }
 
 /** Logo **/
+
 #logo {
     width: 53px;
     height: 60px;
@@ -131,13 +113,8 @@ header {
     margin-right: auto;
 }
 
-
-
-
-
-
-
 /*Hamburger Nav Control*/
+
 .nav-toggle-label {
     display: flex;
     flex-direction: column;
@@ -148,8 +125,8 @@ header {
     margin-left: auto;
 }
 
-
 /*Hamburger Container*/
+
 .hamburger {
     display: block;
     background-color: var(--color-black-purple);
@@ -157,11 +134,10 @@ header {
     height: 7px;
     border-radius: 5px;
     margin: 4px auto;
-
 }
 
-
 /*NAV */
+
 nav {
     position: absolute;
     max-width: 900px;
@@ -171,15 +147,15 @@ nav {
 }
 
 /*HAMBURGER BARS*/
+
 .ham-1,
 .ham-2,
 .ham-3 {
-    transition: transform 0.5s ease-in,
-        opacity 0 ease-in;
+    transition: transform 0.5s ease-in, opacity 0 ease-in;
 }
 
-
 /*Checkbox to animate hamburger and nav*/
+
 #nav-toggle {
     opacity: 0;
 }
@@ -199,24 +175,17 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
     background-color: var(--color-bg);
-
-
 }
 
-
-
 /* UL nav menu*/
+
 #menu li {
     text-align: center;
     width: 50%;
     margin: 15px auto;
     border: 1px solid var(--color-black-purple);
     border-radius: 5px;
-
-
 }
-
-
 
 #menu a {
     padding: 8px 40px;
@@ -228,7 +197,6 @@ nav {
 }
 
 #menu li:hover {
-
     background-color: var(--color-black-purple);
     border-radius: 5px;
     ;
@@ -236,7 +204,6 @@ nav {
 
 #menu li:hover a {
     color: var(--color-bg);
-
 }
 
 .fix-width {
@@ -248,15 +215,16 @@ MAIN for Each Page
 ******************************/
 
 /*MAIN general for all pages*/
+
 main {
     grid-area: main;
     margin-top: 60px;
     /****DEBUG REMOVE*******/
     /* border: solid rgb(242, 10, 10) 10px; */
-
 }
 
 /*********Index Main Elements ***************/
+
 /*Top section element*/
 
 #intro,
@@ -266,8 +234,6 @@ main {
     height: 140px;
     background: url("../images/reception.webp") no-repeat center center/cover;
 }
-
-
 
 /*Treatment Page Main*/
 
@@ -283,7 +249,6 @@ main {
     margin: 0;
     left: 0;
     bottom: 0;
-
 }
 
 #reception h1,
@@ -304,10 +269,7 @@ main {
 
 .welcome-Oasis {
     color: var(--color-prime);
-
 }
-
-
 
 .welcome-Oasis h2,
 .welcome-Oasis p {
@@ -344,8 +306,8 @@ main {
     letter-spacing: 1px;
 }
 
-
 /***Treatment Section Index page****/
+
 .explore-menu,
 .rejuvenate {
     color: var(--color-black-purple);
@@ -356,7 +318,6 @@ main {
 .towels img {
     opacity: 0.4;
 }
-
 
 #treatments h2 {
     color: var(--color-accent);
@@ -380,10 +341,8 @@ main {
     font-size: 1.2rem;
 }
 
-
-
-
 /**********Treatment Main Page*********/
+
 .rejuvenate {
     color: var(--color-accent);
     margin: 25px auto 10px;
@@ -408,11 +367,7 @@ main {
 #massages {
     top: -16px;
     padding-bottom: 20px;
-
 }
-
-
-
 
 .massages {
     position: relative;
@@ -423,7 +378,6 @@ main {
 .couple {
     margin-top: 10px;
 }
-
 
 .swedish,
 .hot-stone,
@@ -468,8 +422,6 @@ main {
     border-radius: 10px;
 }
 
-
-
 .massages a {
     position: absolute;
     width: 100px;
@@ -492,7 +444,6 @@ main {
     bottom: 8px;
     left: 15px;
 }
-
 
 .hot-stone h2 {
     background: rgba(197, 132, 90, 0.7);
@@ -532,7 +483,6 @@ main {
     left: 3px;
 }
 
-
 .mud p {
     right: 3px;
 }
@@ -561,20 +511,19 @@ main {
     right: 41px;
 }
 
-
 .mud a {
     bottom: 20px;
     left: 24px;
 }
 
-
 .mask a {
     bottom: 27px;
 }
 
-
 /*********BOOKING Main PAGE***************/
+
 /*BOOKING MAIN ELEMENT*/
+
 #main-book,
 #book-footer {
     position: absolute;
@@ -587,12 +536,6 @@ main {
 #book-footer {
     bottom: -165px;
 }
-
-
-
-
-
-
 
 #booking-form h1 {
     background: linear-gradient(var(--color-prime), var(--color-accent) 24%, var(--color-black-purple) 87%);
@@ -620,7 +563,6 @@ form {
     max-width: 760px;
     margin-top: 20px;
     padding: 1em;
-
 }
 
 fieldset {
@@ -630,7 +572,6 @@ fieldset {
     border: solid var(--color-bg) 1px;
     border-radius: 5px;
     padding: 1em 1em;
-
 }
 
 legend,
@@ -662,10 +603,7 @@ select {
     -o-transition: background-color, border-bottom 0.6s ease;
     -ms-transition: background-color, border-bottom 0.6s ease;
     transition: background-color, border-bottom 0.6s ease;
-
 }
-
-
 
 legend~.input {
     margin-top: 20px;
@@ -685,51 +623,46 @@ button[type="submit"] {
     letter-spacing: 1px;
 }
 
-
 /* Chrome/Opera/Safari */
+
 ::placeholder,
 ::-webkit-input-placeholder {
-
     font-style: italic;
     text-align: left;
     padding-left: 10px;
 }
 
-
 /* Chrome/Opera/Safari */
+
 input[id="name"]::-webkit-input-placeholder,
 input[id="email"]::-webkit-input-placeholder {
-
     font-style: italic;
     text-align: right;
     padding-right: 10px;
 }
-
 
 /* Firefox 19+ */
+
 input[id="name"]::-moz-input-placeholder,
 input[id="email"]::-moz-input-placeholder {
-
     font-style: italic;
     text-align: right;
     padding-right: 10px;
 }
-
 
 /* IE 10+ */
+
 input[id="name"]:-ms-input-placeholder,
 input[id="email"]:-ms-input-placeholder {
-
     font-style: italic;
     text-align: right;
     padding-right: 10px;
 }
 
-
 /* Firefox 18- */
+
 input[id="name"]:-moz-input-placeholder,
 input[id="email"]:-moz-input-placeholder {
-
     font-style: italic;
     text-align: right;
     padding-right: 10px;
@@ -743,14 +676,12 @@ select:focus label {
     background-color: var(--color-accent);
     color: var(--color-bg);
     box-shadow: inset 0 0 2px 1px var(--color-bg);
-
 }
-
-
 
 /*****************************
  Footer & Ul Elements
 ******************************/
+
 footer {
     grid-area: footer;
     min-height: 70px;
@@ -758,6 +689,7 @@ footer {
 }
 
 /*UL containing li with social media links*/
+
 #social-networks {
     width: 80%;
     display: flex;
@@ -776,12 +708,14 @@ footer {
 }
 
 /*Li containing small element*/
+
 .copy {
     order: 4;
     flex: 0 0 100%;
 }
 
 /*SMALL Copyright*/
+
 small {
     display: block;
     width: 250px;
@@ -805,7 +739,6 @@ small {
     }
 
     /* Nav Items*/
-
     #nav-toggle,
     .nav-toggle-label {
         display: none;
@@ -838,17 +771,13 @@ small {
         font-size: 1.2rem;
     }
 
-
-
     /**MAIN FOR ALL PAGES*/
     main {
         margin-top: 80px;
     }
 
-
     /*********Index Main Elements ***************/
     /*Top section element*/
-
     #intro,
     #treatments-intro {
         height: 345px;
@@ -867,11 +796,9 @@ small {
     }
 
     /**Welcome Section Index***/
-
     .welcome-Oasis h2 {
         font-size: 2.2rem;
     }
-
 
     .welcome-Oasis p {
         width: 85%;
@@ -880,15 +807,13 @@ small {
         letter-spacing: 2px;
     }
 
-
     .unwind {
         height: 440px;
     }
 
-
     .unwind-text {
-        top: 13px;
-        right: 45px;
+        top: 50px;
+        right: 29px;
         width: 250px;
         height: 250px;
         padding-top: 75px;
@@ -908,17 +833,14 @@ small {
         letter-spacing: 6px;
     }
 
-
     .experts {
         height: 400px;
     }
-
 
     .experts p {
         width: 75%;
         font-size: 1.5rem;
         line-height: 37px;
-
     }
 
     /*********TREATMENT PAGE ********************/
@@ -950,7 +872,6 @@ small {
     .massages {
         margin: 0 5px;
         border-radius: 15px;
-
     }
 
     .massages h2,
@@ -974,7 +895,6 @@ small {
     .mud,
     .mask {
         height: 450px;
-
     }
 
     .swedish,
@@ -982,7 +902,6 @@ small {
         align-self: center;
         margin: 0 25%;
     }
-
 
     .swedish h2,
     .hot-stone h2,
@@ -995,7 +914,6 @@ small {
         font-size: 1.9rem;
         text-align: center;
     }
-
 
     .swedish p,
     .hot-stone p,
@@ -1020,7 +938,6 @@ small {
         height: 210px;
     }
 
-
     .swedish p {
         top: 148px;
     }
@@ -1039,9 +956,7 @@ small {
 
     .hot-stone a {
         left: 9px;
-
     }
-
 
     .couple a,
     .hot-stone a,
@@ -1049,26 +964,19 @@ small {
     .mud a,
     .mask a {
         bottom: 9px;
-
     }
-
-
 
     .facial a {
         right: 84px;
-
     }
 
     .mask a {
         left: 31px;
-
     }
 
     .mud a {
         left: 68px;
-
     }
-
 
     .facial a,
     .mud a,
@@ -1077,12 +985,10 @@ small {
     }
 
     /*****Facial Therapy Articles *******/
-
     .facial-heading {
         width: 100%;
         font-size: 1.8rem;
     }
-
 
     /*********BOOKING PAGE***************/
     .form-bg {
@@ -1092,7 +998,6 @@ small {
     #booking-form h1 {
         font-size: 2.5rem;
         padding: 0.7em 0;
-
     }
 
     .contact-details legend {
@@ -1125,7 +1030,6 @@ small {
         margin-bottom: 0;
         max-width: 525px;
         font-size: 1.5rem;
-
     }
 
     select,
@@ -1141,29 +1045,36 @@ small {
     /****FOOTER ELEMENTS******/
     footer {
         padding-top: 2px;
-
-
     }
 
     #book-footer {
         bottom: -50px;
     }
-
 }
-
-
-
-
-
 
 /****************************
 MEDIA QUERY 1024PX
 ******************************/
+
 @media screen and (min-width: 1024px) {
 
     /*Nav Links*/
     #menu a {
         font-size: 1.5rem;
+    }
+
+    /****Index Main**********/
+    .unwind {
+        height: 572px;
+    }
+
+    .unwind-text {
+        right: 29px;
+        width: 350px;
+        height: 350px;
+        padding-top: 89px;
+        padding-left: 28px;
+        font-size: 2.4rem;
     }
 
     /***Treatment Section Index****/
@@ -1176,27 +1087,22 @@ MEDIA QUERY 1024PX
     }
 
     /*********TREATMENT PAGE ********************/
-
-
     .escape {
         font-size: 1.4rem;
         padding: 20px 0;
         line-height: 43px;
     }
 
-
     .massages,
     .swedish,
     .facial {
         margin: 40px 5px;
-
     }
 
     .swedish,
     .facial {
         align-self: flex-start;
     }
-
 
     .swedish img {
         height: 210px;
@@ -1220,22 +1126,16 @@ MEDIA QUERY 1024PX
         top: 185px;
     }
 
-
     .swedish a {
         left: 81px;
     }
 
-
     .couple a {
         left: 84px;
-
     }
-
 
     .hot-stone a {
         left: 40px;
-
-
     }
 
     .swedish a,
@@ -1247,7 +1147,6 @@ MEDIA QUERY 1024PX
     .facial a {
         left: 75px;
     }
-
 
     .mud a {
         left: 81px;
@@ -1261,20 +1160,15 @@ MEDIA QUERY 1024PX
         font-size: 2rem;
     }
 
-
     /****FOOTER ELEMENTS******/
     footer {
         min-height: 80px;
-
     }
 
     #book-footer {
         bottom: -330px;
     }
-
 }
-
-
 
 /****************************
 MEDIA QUERY 1264PX
@@ -1284,7 +1178,6 @@ MEDIA QUERY 1264PX
 
     /*********Index Main Elements ***************/
     /*Top section element*/
-
     #intro,
     #treatments-intro {
         height: 470px;
@@ -1301,23 +1194,18 @@ MEDIA QUERY 1264PX
         font-size: 3rem;
     }
 
-
     /**Welcome Section Index***/
-
     .welcome-Oasis h2 {
         font-size: 2.5rem;
     }
-
 
     .welcome-Oasis p {
         font-size: 1.8rem;
     }
 
-
     .unwind {
         height: 698px;
     }
-
 
     .unwind-text {
         top: 44px;
@@ -1328,9 +1216,7 @@ MEDIA QUERY 1264PX
         padding-left: 56px;
         font-size: 2rem;
         text-shadow: 0 2px 2px var(--color-black-purple);
-
     }
-
 
     /***Treatment Section Index****/
     .explore-menu {
@@ -1342,23 +1228,16 @@ MEDIA QUERY 1264PX
         font-size: 4.5rem;
     }
 
-
     .experts {
         height: 500px;
     }
 
-
     .experts p {
         font-size: 2rem;
         line-height: 49px;
-
     }
 
-
-
-
     /*********TREATMENT PAGE ********************/
-
     .escape {
         font-size: 1.6rem;
         line-height: 53px;
@@ -1367,7 +1246,6 @@ MEDIA QUERY 1264PX
     .massages {
         max-width: 400px;
     }
-
 
     .swedish,
     .couple,
@@ -1391,18 +1269,14 @@ MEDIA QUERY 1264PX
         top: 239px;
     }
 
-
     .massages a {
         width: 180px;
         font-size: 2rem;
     }
 
-
-
     .couple a {
         left: 114px;
     }
-
 
     .hot-stone a {
         left: 32px;
@@ -1414,11 +1288,9 @@ MEDIA QUERY 1264PX
         bottom: 15px;
     }
 
-
     .mud a {
         left: 105px;
     }
-
 
     .mask a {
         left: 48px;
@@ -1431,7 +1303,6 @@ MEDIA QUERY 1264PX
     }
 
     /*****BOOKING MAIN PAGE ******/
-
     .form-bg {
         margin-top: 107px;
     }
@@ -1440,21 +1311,17 @@ MEDIA QUERY 1264PX
     footer {
         min-height: 80px;
         padding-top: 10px;
-
     }
-
-
-
 }
-
 
 /****************************
 MEDIA QUERY 1366PX
 ******************************/
+
 @media screen and (min-width: 1366px) {
+
     /*********Index Main Elements ***************/
     /*Top section element*/
-
     #intro,
     #treatments-intro {
         height: 500px;
@@ -1471,13 +1338,10 @@ MEDIA QUERY 1366PX
         font-size: 4rem;
     }
 
-
     /**Welcome Section Index***/
-
     .unwind {
         height: 765px;
     }
-
 
     .unwind-text {
         right: 48px;
@@ -1488,25 +1352,20 @@ MEDIA QUERY 1366PX
         font-size: 2.8rem;
     }
 
-
     /***Treatment Section Index****/
     #treatments h2 {
         font-size: 4.5rem;
     }
 
-
     /*********TREATMENT PAGE ********************/
-
     .swedish a {
         left: 100px;
     }
-
 
     /****FOOTER ELEMENTS******/
     footer {
         min-height: 90px;
         padding-top: 1px;
-
     }
 
     #social-networks li img {
@@ -1516,17 +1375,16 @@ MEDIA QUERY 1366PX
     small {
         font-size: 0.950rem;
     }
-
 }
-
 
 /****************************
 MEDIA QUERY 1400PX
 ******************************/
+
 @media screen and (min-width: 1400px) {
+
     /*********Index Main Elements ***************/
     /*Top section element*/
-
     #intro,
     #treatments-intro {
         height: 565px;
@@ -1543,9 +1401,7 @@ MEDIA QUERY 1400PX
         font-size: 4.5rem;
     }
 
-
     /**Welcome Section Index***/
-
     .welcome-Oasis h2 {
         font-size: 3.5rem;
     }
@@ -1559,40 +1415,33 @@ MEDIA QUERY 1400PX
         height: 765px;
     }
 
-
-
     /***Treatment Section Index****/
-
     #treatments h2 {
         font-size: 5rem;
     }
-
-
 }
-
 
 /****************************
 MEDIA QUERY 1800PX
 ******************************/
+
 @media screen and (min-width: 1800px) {
 
     /**Welcome Section Index***/
-
     .unwind {
         height: 999px;
     }
-
 
     .unwind-text {
         top: 154px;
         text-shadow: 0 3px 4px var(--color-black-purple);
     }
-
 }
 
 /****************************
 MEDIA QUERY 2200PX
 ******************************/
+
 @media screen and (min-width: 2200px) {
 
     /******HEADER************/
@@ -1612,12 +1461,10 @@ MEDIA QUERY 2200PX
     }
 
     /***********MAIN INDEX PAGE *********/
-
     #intro,
     #treatments-intro {
         height: 825px;
     }
-
 
     #reception h1,
     .treatment-bg h1 {
@@ -1666,9 +1513,6 @@ MEDIA QUERY 2200PX
         margin: 46px auto 40px;
     }
 
-
-
-
     /***********MAIN TREATMENT PAGE *********/
     .rejuvenate {
         font-size: 3.5rem;
@@ -1705,7 +1549,6 @@ MEDIA QUERY 2200PX
     .mask h2 {
         top: -36px;
         font-size: 2.5rem;
-
     }
 
     .swedish p,
@@ -1805,7 +1648,6 @@ MEDIA QUERY 2200PX
         font-size: 4.5rem;
     }
 
-
     label {
         font-size: 2.9rem;
         width: 400px;
@@ -1815,8 +1657,6 @@ MEDIA QUERY 2200PX
         font-size: 3rem;
         width: 300px;
     }
-
-
 
     button[type="submit"] {
         font-size: 3rem;
@@ -1840,5 +1680,4 @@ MEDIA QUERY 2200PX
     #social-networks li:first-child {
         padding-top: 18px;
     }
-
 }
