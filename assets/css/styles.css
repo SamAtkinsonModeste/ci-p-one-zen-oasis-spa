@@ -1611,7 +1611,8 @@ MEDIA QUERY 2200PX
     }
 
 
-    #reception h1 {
+    #reception h1,
+    .treatment-bg h1 {
         font-size: 5rem;
         top: -15px;
     }
@@ -1657,14 +1658,137 @@ MEDIA QUERY 2200PX
         margin: 46px auto 40px;
     }
 
-    footer,
-    #social-networks {
-        max-height: 150px;
+
+
+
+    /***********MAIN TREATMENT PAGE *********/
+    .rejuvenate {
+        font-size: 3.5rem;
+    }
+
+    .escape {
+        font-size: 2rem;
+        line-height: 53px;
+    }
+
+    .massages {
+        max-width: 600px;
+    }
+
+    .swedish {
+        width: 600px;
+    }
+
+    .swedish,
+    .couple,
+    .hot-stone {
+        height: 780px;
+    }
+
+    .swedish img {
+        height: 402px;
+    }
+
+    .swedish h2,
+    .hot-stone h2,
+    .couple h2,
+    .facial h2,
+    .mud h2,
+    .mask h2 {
+        top: -36px;
+        font-size: 2.5rem;
+
+    }
+
+    .swedish p,
+    .hot-stone p,
+    .couple p,
+    .facial p,
+    .mud p,
+    .mask p {
+        top: 359px;
+        font-size: 2rem;
+        height: 525px;
+    }
+
+    .massages a {
+        width: 250px;
+        font-size: 3rem;
+    }
+
+    .swedish a,
+    .couple a,
+    .hot-stone a {
+        bottom: -161px;
+    }
+
+    .swedish a {
+        left: 156px;
+    }
+
+    .couple a {
+        left: 175px;
+    }
+
+    #massages {
+        top: -32px;
+        margin-bottom: 90px;
+    }
+
+    #facial-treatments {
+        margin-bottom: 195px;
+    }
+
+    .facial-heading {
+        font-size: 5rem;
+    }
+
+    .facial,
+    .mud,
+    .mask {
+        height: 475px;
+        margin-top: 100px;
+    }
+
+    .facial p,
+    .mud p,
+    .mask p {
+        height: 280px;
+    }
+
+    .facial a,
+    .mud a,
+    .mask a {
+        bottom: -230px;
+    }
+
+    .facial a {
+        left: 45px;
+    }
+
+    .mud a {
+        left: 164px;
+    }
+
+    .mask a {
+        left: 42px;
+    }
+
+
+    /*********FOOTER***********/
+    footer {
+        min-height: 200px;
+        max-height: 200px;
+        padding-top: 64px;
     }
 
     #social-networks li {
-        width: 80px;
+        width: 90px;
         padding-top: 0;
+    }
+
+    #social-networks li:first-child {
+        padding-top: 18px;
     }
 
 }
