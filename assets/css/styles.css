@@ -366,7 +366,7 @@ main {
 }
 
 .experts {
-    background: linear-gradient(rgba(178, 62, 81, 0.6), rgba(178, 62, 81, 0.6)), url("../images/rose-massage-bed.webp") no-repeat center center/cover;
+    background: linear-gradient(rgba(178, 62, 81, 0.8), rgba(178, 62, 81, 0.8)), url("../images/rose-massage-bed.webp") no-repeat center center/cover;
     margin-bottom: 0;
     height: 300px;
     padding-top: 10px;
@@ -796,6 +796,12 @@ small {
     /*HEADER*/
     header {
         height: 80px;
+    }
+
+    #logo {
+        width: 82px;
+        height: 80px;
+        padding-top: 4px;
     }
 
     /* Nav Items*/
@@ -1572,6 +1578,93 @@ MEDIA QUERY 1800PX
     .unwind-text {
         top: 154px;
         text-shadow: 0 3px 4px var(--color-black-purple);
+    }
+
+}
+
+/****************************
+MEDIA QUERY 2200PX
+******************************/
+@media screen and (min-width: 2200px) {
+
+    /******HEADER************/
+    header {
+        height: 90px;
+    }
+
+    #logo {
+        width: 92px;
+        height: 90px;
+        padding-top: 4px;
+    }
+
+    /**NAV**/
+    #menu a {
+        font-size: 1.8rem;
+    }
+
+    /***********MAIN INDEX PAGE *********/
+
+    #intro,
+    #treatments-intro {
+        height: 650px;
+    }
+
+
+    #reception h1 {
+        font-size: 5rem;
+        top: -15px;
+    }
+
+    .welcome-Oasis h2 {
+        font-size: 4.5rem;
+    }
+
+    .welcome-Oasis p {
+        font-size: 3rem;
+        max-width: 1750px;
+    }
+
+    .unwind {
+        height: 1432px;
+    }
+
+    .unwind-text {
+        top: 223px;
+        right: 56px;
+        width: 650px;
+        height: 650px;
+        padding-top: 172px;
+        padding-left: 95px;
+        font-size: 4rem;
+    }
+
+    .explore-menu {
+        font-size: 5rem;
+    }
+
+    #treatments h2 {
+        font-size: 8rem;
+    }
+
+    .experts {
+        height: 675px;
+    }
+
+    .experts p {
+        font-size: 3rem;
+        line-height: 66px;
+        margin: 46px auto 40px;
+    }
+
+    footer,
+    #social-networks {
+        max-height: 150px;
+    }
+
+    #social-networks li {
+        width: 80px;
+        padding-top: 0;
     }
 
 }
