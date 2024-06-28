@@ -1109,7 +1109,7 @@ small {
     }
 
     label {
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 440px;
     }
 
@@ -1146,7 +1146,7 @@ small {
     }
 
     #book-footer {
-        bottom: -100px;
+        bottom: -50px;
     }
 
 }
@@ -1268,7 +1268,9 @@ MEDIA QUERY 1024PX
 
     }
 
-
+    #book-footer {
+        bottom: -330px;
+    }
 
 }
 
@@ -1426,6 +1428,12 @@ MEDIA QUERY 1264PX
     .mud a,
     .mask a {
         bottom: 29px;
+    }
+
+    /*****BOOKING MAIN PAGE ******/
+
+    .form-bg {
+        margin-top: 107px;
     }
 
     /****FOOTER ELEMENTS******/
@@ -1607,7 +1615,7 @@ MEDIA QUERY 2200PX
 
     #intro,
     #treatments-intro {
-        height: 650px;
+        height: 825px;
     }
 
 
@@ -1774,6 +1782,48 @@ MEDIA QUERY 2200PX
         left: 42px;
     }
 
+    /*************BOOKING PAGE MAIN **********/
+    #booking-form h1 {
+        font-size: 5.5rem;
+        padding: 0.9em 0;
+        text-shadow: 0 2px 5px var(--color-light-grey);
+    }
+
+    .form-bg {
+        max-width: 1500px;
+    }
+
+    form {
+        max-width: 900px;
+    }
+
+    .contact-details legend {
+        font-size: 4.8rem;
+    }
+
+    .book-treats legend {
+        font-size: 4.5rem;
+    }
+
+
+    label {
+        font-size: 2.9rem;
+        width: 400px;
+    }
+
+    .details label {
+        font-size: 3rem;
+        width: 300px;
+    }
+
+
+
+    button[type="submit"] {
+        font-size: 3rem;
+        width: 365px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
 
     /*********FOOTER***********/
     footer {
