@@ -96,8 +96,6 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
 
 ### Styling
 
-- I used [Normalize.css](https://necolas.github.io/normalize.css/) to reset all elements across all browsers.
-
 <div align="center">
 Over the years, my CSS journey has been fun.<br>
 I love how you can use CSS not only for the layout of your pages <br> but also to add artistic touches to your site using properties such as:
@@ -106,6 +104,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - [Text-Shadow](https://www.w3schools.com/cssref/css3_pr_text-shadow.php)
 - [Border-Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.php) which can be used to make interestng shapes of a block element.
 - [RGBA Function](https://css-tricks.com/the-power-of-rgba/) used with background images can change the look and feel of your image by taking advantage of the Aplha value.
+- I used [Normalize.css](https://necolas.github.io/normalize.css/) to reset all elements across all browsers.
 - [Media Queries](https://www.w3schools.com/cssref/css3_pr_mediaquery.php) - I used several to ensure my layout stayed intact for most devices.
 
 ## Features
