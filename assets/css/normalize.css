@@ -377,3 +377,40 @@ template {
 [hidden] {
     display: none;
 }
+
+
+/* Chrome/Opera/Safari */
+
+input[id="name"]::-webkit-input-placeholder,
+input[id="email"]::-webinput-placeholder {
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Firefox 19+ */
+
+input[id="name"]::-moz-input-placeholder,
+input[id="email"]::-moz-input-placeholder {
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* IE 10+ */
+
+input[id="name"]:-ms-input-placeholder,
+input[id="email"]:-ms-input-placeholder {
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Firefox 18- */
+
+input[id="name"]:-moz-input-placeholder,
+input[id="email"]:-moz-input-placeholder {
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+}
