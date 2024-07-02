@@ -61,7 +61,8 @@ ul {
     display: block;
 }
 
-.marg-cen {
+.marg-cen,
+main {
     margin: 0 auto;
 }
 
@@ -151,12 +152,13 @@ nav {
 .ham-1,
 .ham-2,
 .ham-3 {
-    transition: transform 0.5s ease-in, opacity 0 ease-in;
+    transition: transform 0.5s ease-in-out, opacity ease-in;
 }
 
 /*Checkbox to animate hamburger and nav*/
 
-#nav-toggle {
+#nav-toggle,
+#nav-toggle:checked~.nav-toggle-label .ham-2 {
     opacity: 0;
 }
 
@@ -164,9 +166,6 @@ nav {
     transform: rotate(45deg) translate(10px, 10px);
 }
 
-#nav-toggle:checked~.nav-toggle-label .ham-2 {
-    opacity: 0;
-}
 
 #nav-toggle:checked~.nav-toggle-label .ham-3 {
     transform: rotate(-45deg) translate(10px, -12px);
@@ -199,7 +198,6 @@ nav {
 #menu li:hover {
     background-color: var(--color-black-purple);
     border-radius: 5px;
-    ;
 }
 
 #menu li:hover a {
@@ -219,8 +217,6 @@ MAIN for Each Page
 main {
     grid-area: main;
     margin-top: 60px;
-    /****DEBUG REMOVE*******/
-    /* border: solid rgb(242, 10, 10) 10px; */
 }
 
 /*********Index Main Elements ***************/
@@ -228,10 +224,11 @@ main {
 /*Top section element*/
 
 #intro,
-#treatments-intro {
+#treatments-intro,
+#congratulations {
     position: relative;
     padding: 1px;
-    height: 140px;
+    height: 200px;
     background: url("../images/reception.webp") no-repeat center center/cover;
 }
 
@@ -242,7 +239,8 @@ main {
 }
 
 #reception,
-.treatment-bg {
+.treatment-bg,
+#booked {
     position: absolute;
     height: 47px;
     background-color: rgba(39, 27, 41, 0.3);
@@ -252,7 +250,8 @@ main {
 }
 
 #reception h1,
-.treatment-bg h1 {
+.treatment-bg h1,
+#congratulations h1 {
     position: absolute;
     margin: 0;
     padding-left: 1px;
@@ -524,17 +523,8 @@ main {
 
 /*BOOKING MAIN ELEMENT*/
 
-#main-book,
-#book-footer {
-    position: absolute;
-}
-
-#main-book {
-    top: 60px;
-}
-
-#book-footer {
-    bottom: -165px;
+#booking-form {
+    margin-bottom: 30px;
 }
 
 #booking-form h1 {
@@ -598,10 +588,6 @@ select {
     border-radius: 8px;
     box-shadow: inset 0 0 2px 1px var(--color-accent);
     font-size: 1.1em;
-    -webkit-transition: background-color, border-bottom 0.6s ease;
-    -moz-transition: background-color, border-bottom 0.6s ease;
-    -o-transition: background-color, border-bottom 0.6s ease;
-    -ms-transition: background-color, border-bottom 0.6s ease;
     transition: background-color, border-bottom 0.6s ease;
 }
 
@@ -625,8 +611,7 @@ button[type="submit"] {
 
 /* Chrome/Opera/Safari */
 
-::placeholder,
-::-webkit-input-placeholder {
+::placeholder {
     font-style: italic;
     text-align: left;
     padding-left: 10px;
@@ -634,39 +619,39 @@ button[type="submit"] {
 
 /* Chrome/Opera/Safari */
 
-input[id="name"]::-webkit-input-placeholder,
-input[id="email"]::-webkit-input-placeholder {
+/* input[id="name"]::-webkit-input-placeholder,
+input[id="email"]::-webinput-placeholder {
     font-style: italic;
     text-align: right;
     padding-right: 10px;
-}
+} */
 
 /* Firefox 19+ */
 
-input[id="name"]::-moz-input-placeholder,
+/* input[id="name"]::-moz-input-placeholder,
 input[id="email"]::-moz-input-placeholder {
     font-style: italic;
     text-align: right;
     padding-right: 10px;
-}
+} */
 
 /* IE 10+ */
 
-input[id="name"]:-ms-input-placeholder,
+/* input[id="name"]:-ms-input-placeholder,
 input[id="email"]:-ms-input-placeholder {
     font-style: italic;
     text-align: right;
     padding-right: 10px;
-}
+} */
 
 /* Firefox 18- */
 
-input[id="name"]:-moz-input-placeholder,
+/* input[id="name"]:-moz-input-placeholder,
 input[id="email"]:-moz-input-placeholder {
     font-style: italic;
     text-align: right;
     padding-right: 10px;
-}
+} */
 
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -678,13 +663,58 @@ select:focus label {
     box-shadow: inset 0 0 2px 1px var(--color-bg);
 }
 
+/*************THANK YOU BOOKING PAGE***********************/
+/**HEADER**/
+.head-booked {
+    top: 0;
+}
+
+#congratulations {
+    background: url("../images/thank-you.webp") no-repeat center center/cover;
+}
+
+#booked {
+    height: 40px;
+}
+
+#congratulations h1 {
+    font-size: 1rem;
+    top: 10px;
+}
+
+.zen-thanks h2,
+.tan-txt,
+.tan-txt a {
+    color: var(--color-prime);
+}
+
+.black-txt {
+    color: var(--color-black-purple);
+}
+
+.red-txt,
+.red-txt a {
+    color: var(--color-accent);
+}
+
+#after-treatments p {
+    font-size: 1.2rem;
+    line-height: 32px;
+    width: 90%;
+}
+
+.couple-thanks {
+    background: linear-gradient(rgba(178, 62, 81, 0.6), rgba(178, 62, 81, 0.6)), url("../images/couple-thank-you.webp") no-repeat center center/cover;
+    height: 200px;
+}
+
 /*****************************
  Footer & Ul Elements
 ******************************/
 
 footer {
     grid-area: footer;
-    min-height: 70px;
+    height: fit-content;
     background-color: var(--color-black-purple);
 }
 
@@ -779,7 +809,8 @@ small {
     /*********Index Main Elements ***************/
     /*Top section element*/
     #intro,
-    #treatments-intro {
+    #treatments-intro,
+    #congratulations {
         height: 345px;
     }
 
@@ -1042,13 +1073,53 @@ small {
         width: 300px;
     }
 
+    /*************THANK YOU BOOKING PAGE***********************/
+
+    #booked {
+        height: 50px;
+    }
+
+    #congratulations h1 {
+        font-size: 2.3rem;
+        top: -5px;
+    }
+
+    .zen-thanks h2 {
+        font-size: 2.2rem;
+    }
+
+    .tan-txt,
+    .black-txt {
+        font-size: 2rem;
+    }
+
+
+    .red-txt a {
+        font-size: 2.2rem;
+    }
+
+    #after-treatments p {
+        font-size: 2.6rem;
+        line-height: 52px;
+        width: 90%;
+    }
+
+    .couple-thanks {
+        height: 450px;
+    }
+
     /****FOOTER ELEMENTS******/
     footer {
         padding-top: 2px;
     }
 
-    #book-footer {
-        bottom: -50px;
+    #social-networks {
+        padding-bottom: 10px;
+    }
+
+    #social-networks li:first-child {
+        margin-bottom: 24px;
+
     }
 }
 
@@ -1160,14 +1231,41 @@ MEDIA QUERY 1024PX
         font-size: 2rem;
     }
 
-    /****FOOTER ELEMENTS******/
-    footer {
-        min-height: 80px;
+    /*************THANK YOU BOOKING PAGE***********************/
+
+    #booked {
+        height: 55px;
     }
 
-    #book-footer {
-        bottom: -330px;
+    #congratulations h1 {
+        font-size: 2.8rem;
+        top: -8px;
     }
+
+    .zen-thanks h2 {
+        font-size: 2.6rem;
+    }
+
+    .tan-txt,
+    .black-txt {
+        font-size: 2.2rem;
+    }
+
+
+    .red-txt a {
+        font-size: 2.2rem;
+    }
+
+    #after-treatments p {
+        font-size: 3rem;
+        line-height: 62px;
+        width: 80%;
+    }
+
+    .couple-thanks {
+        height: 450px;
+    }
+
 }
 
 /****************************
@@ -1307,9 +1405,52 @@ MEDIA QUERY 1264PX
         margin-top: 107px;
     }
 
+
+    /*************THANK YOU BOOKING PAGE***********************/
+
+
+    #congratulations {
+        height: 445px;
+    }
+
+    #booked {
+        height: 75px;
+    }
+
+    #congratulations h1 {
+        font-size: 3rem;
+        top: 0;
+    }
+
+
+
+    .zen-thanks h2,
+    .red-txt a {
+        font-size: 2.8rem;
+    }
+
+    .tan-txt,
+    .black-txt {
+        font-size: 2.6rem;
+    }
+
+
+
+
+    #after-treatments p {
+        font-size: 3.8rem;
+        line-height: 82px;
+        width: 75%;
+    }
+
+    .couple-thanks {
+        height: 700px;
+    }
+
+
+
     /****FOOTER ELEMENTS******/
     footer {
-        min-height: 80px;
         padding-top: 10px;
     }
 }
@@ -1321,6 +1462,7 @@ MEDIA QUERY 1366PX
 @media screen and (min-width: 1366px) {
 
     /*********Index Main Elements ***************/
+
     /*Top section element*/
     #intro,
     #treatments-intro {
@@ -1364,7 +1506,6 @@ MEDIA QUERY 1366PX
 
     /****FOOTER ELEMENTS******/
     footer {
-        min-height: 90px;
         padding-top: 1px;
     }
 
@@ -1384,6 +1525,7 @@ MEDIA QUERY 1400PX
 @media screen and (min-width: 1400px) {
 
     /*********Index Main Elements ***************/
+
     /*Top section element*/
     #intro,
     #treatments-intro {
@@ -1436,6 +1578,50 @@ MEDIA QUERY 1800PX
         top: 154px;
         text-shadow: 0 3px 4px var(--color-black-purple);
     }
+
+
+    /*************THANK YOU BOOKING PAGE***********************/
+
+
+    #congratulations {
+        height: 525px;
+    }
+
+    #booked {
+        height: 85px;
+    }
+
+    #congratulations h1 {
+        font-size: 3.5rem;
+        top: 0;
+    }
+
+
+
+    .zen-thanks h2,
+    .red-txt a {
+        font-size: 3rem;
+    }
+
+    .tan-txt,
+    .black-txt {
+        font-size: 2.8rem;
+    }
+
+
+
+
+    #after-treatments p {
+        font-size: 4rem;
+        line-height: 95px;
+        width: 65%;
+    }
+
+    .couple-thanks {
+        height: 900px;
+    }
+
+
 }
 
 /****************************
@@ -1665,10 +1851,50 @@ MEDIA QUERY 2200PX
         margin-bottom: 30px;
     }
 
+
+    /*************THANK YOU BOOKING PAGE***********************/
+
+
+    #congratulations {
+        height: 725px;
+    }
+
+    #booked {
+        height: 95px;
+    }
+
+    #congratulations h1 {
+        font-size: 4rem;
+        top: 0;
+    }
+
+
+
+    .zen-thanks h2,
+    .red-txt a {
+        font-size: 3.5rem;
+    }
+
+    .tan-txt,
+    .black-txt {
+        font-size: 3rem;
+    }
+
+
+
+
+    #after-treatments p {
+        font-size: 4.5rem;
+        line-height: 100px;
+        width: 65%;
+    }
+
+    .couple-thanks {
+        height: 1000px;
+    }
+
     /*********FOOTER***********/
     footer {
-        min-height: 200px;
-        max-height: 200px;
         padding-top: 64px;
     }
 
