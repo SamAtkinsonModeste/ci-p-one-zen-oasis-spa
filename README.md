@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/images/spa-logo-text.webp" style="background-color:#f4f6f5; border-radius: 10px; width: 100px" alt="Zen Spa Logo">
+  <img src="assets/images/spa-logo-text.webp" style="background-color: white; border-radius: 10px; width: 100px" alt="Zen Spa Logo">
 </div>
 <div align="center">
   <img src="assets/images/zen-oasis-all-devices.png" alt="Home page of Zen Spa">
@@ -32,8 +32,11 @@
   - [High Fidelity Mockup](#high-fidelity-mockup)
   - [Fonts](#fonts)
   - [Colour](#colour-palette)
+  - [Styling](#styling)
 - [Features](#features)
   - [Navigation Bars](#naviagation-bars)
+    - [Mobile Navigation](mobile-navigation)
+    - [Tablet & Desktop Navigation](tablet-desktop-navigation)
   - [Home Page](#home-page)
   - [Treatment Page](#treatment-page)
   - [Booking Page ](#booking-page)
@@ -64,21 +67,47 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
 
 ### Fonts
 
+<div align="center">
+  <img src="assets/images/amandine-font.png" alt="Font Amandine">
+</div>
+
 - Adobe's [Amandine](https://fonts.adobe.com/fonts/amandine) font has clean lines and graceful curves that evoke a sense of elegance and tranquillity.
   It complements the serene atmosphere of Zen Oasis, conveying relaxation and sophistication.
   Amandine’s legibility ensures that headings are easy to read, even at larger sizes. The balanced letterforms enhance clarity, making it ideal for titles and headers. Amandine works well across various devices and screen resolutions. Whether on a desktop or mobile, it maintains its visual appeal.
 
-![Screenshot of Adobe Amandine Font](assets/images/amandine-font.png)
+<div align="center">
+  <img src="assets/images/aptly-font.png" alt="Font Aptly">
+</div>
 
 - Adobe's [Aptly](https://fonts.adobe.com/fonts/aptly) font was used for body text. It is also a sans-serif font, and the combination of **Amandine** (for headings) and **Aptly** (for body text) creates a pleasing contrast. **Amandine’s** sophistication draws attention, while **Aptly** maintains legibility, striking a harmonious balance.
   **Aptly’s** contemporary aesthetics align with the site's modern and serene vibe. Its simplicity conveys professionalism and a sense of calm. Aptly adapts well to various screen sizes, ensuring a consistent experience on desktops, tablets, and mobiles.
 
-![Screenshot of Adobe Aptly Font](assets/images/aptly-font.png)
-
 ### Colour Palette
 
-Colour Palette for the site.
+<div align="center">
+  <img src="assets/images/color-palette.png" alt="Colour palette of 6six different colours">
+</div>
 
-![Screenshot of Colours](assets/images/color-palette.png)
+- The primary colour evokes relaxation, tranquillity, and sandy beaches, setting the overall tone and mood of the website.
+- The accent colour adds visual interest and draws attention to specific elements.
+- My white shade represents purity, cleanliness, and spaciousness. As the background colour for content areas, it ensures readability and a sense of openness.
+- My black, which hints at the accent colour, makes a great contrast.
+- My greys provide subtle contrast and depth.
+
+### Styling
+
+- I used [Normalize.css](https://necolas.github.io/normalize.css/) to reset all elements across all browsers.
+
+<div align="center">
+Over the years, my CSS journey has been fun.<br>
+I love how you can use CSS not only for the layout of your pages <br> but also to add artistic touches to your site using properties such as:
+ </div>
+
+- [Text-Shadow](https://www.w3schools.com/cssref/css3_pr_text-shadow.php)
+- [Border-Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.php) which can be used to make interestng shapes of a block element.
+- [RGBA Function](https://css-tricks.com/the-power-of-rgba/) used with background images can change the look and feel of your image by taking advantage of the Aplha value.
+- [Media Queries](https://www.w3schools.com/cssref/css3_pr_mediaquery.php) - I used several to ensure my layout stayed intact for most devices.
 
 ## Features
+
+### Navigation Bars
