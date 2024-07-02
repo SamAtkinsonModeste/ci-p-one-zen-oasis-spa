@@ -166,7 +166,6 @@ nav {
     transform: rotate(45deg) translate(10px, 10px);
 }
 
-
 #nav-toggle:checked~.nav-toggle-label .ham-3 {
     transform: rotate(-45deg) translate(10px, -12px);
 }
@@ -232,6 +231,7 @@ main {
     background: url("../images/reception.webp") no-repeat center center/cover;
 }
 
+
 /*Treatment Page Main*/
 
 #treatments-intro {
@@ -259,6 +259,7 @@ main {
     left: 0;
     text-shadow: 0 2px 3px var(--color-black-purple);
 }
+
 
 /**Welcome Section Index page***/
 
@@ -305,6 +306,7 @@ main {
     letter-spacing: 1px;
 }
 
+
 /***Treatment Section Index page****/
 
 .explore-menu,
@@ -339,6 +341,7 @@ main {
     line-height: 25px;
     font-size: 1.2rem;
 }
+
 
 /**********Treatment Main Page*********/
 
@@ -609,49 +612,11 @@ button[type="submit"] {
     letter-spacing: 1px;
 }
 
-/* Chrome/Opera/Safari */
-
 ::placeholder {
     font-style: italic;
     text-align: left;
     padding-left: 10px;
 }
-
-/* Chrome/Opera/Safari */
-
-/* input[id="name"]::-webkit-input-placeholder,
-input[id="email"]::-webinput-placeholder {
-    font-style: italic;
-    text-align: right;
-    padding-right: 10px;
-} */
-
-/* Firefox 19+ */
-
-/* input[id="name"]::-moz-input-placeholder,
-input[id="email"]::-moz-input-placeholder {
-    font-style: italic;
-    text-align: right;
-    padding-right: 10px;
-} */
-
-/* IE 10+ */
-
-/* input[id="name"]:-ms-input-placeholder,
-input[id="email"]:-ms-input-placeholder {
-    font-style: italic;
-    text-align: right;
-    padding-right: 10px;
-} */
-
-/* Firefox 18- */
-
-/* input[id="name"]:-moz-input-placeholder,
-input[id="email"]:-moz-input-placeholder {
-    font-style: italic;
-    text-align: right;
-    padding-right: 10px;
-} */
 
 input[type="text"]:focus,
 input[type="email"]:focus,
@@ -664,7 +629,9 @@ select:focus label {
 }
 
 /*************THANK YOU BOOKING PAGE***********************/
+
 /**HEADER**/
+
 .head-booked {
     top: 0;
 }
@@ -768,6 +735,7 @@ small {
         padding-top: 4px;
     }
 
+
     /* Nav Items*/
     #nav-toggle,
     .nav-toggle-label {
@@ -801,12 +769,15 @@ small {
         font-size: 1.2rem;
     }
 
+
     /**MAIN FOR ALL PAGES*/
     main {
         margin-top: 80px;
     }
 
+
     /*********Index Main Elements ***************/
+
     /*Top section element*/
     #intro,
     #treatments-intro,
@@ -825,6 +796,7 @@ small {
         font-size: 2.5rem;
         text-shadow: 0 4px 6px var(--color-black-purple);
     }
+
 
     /**Welcome Section Index***/
     .welcome-Oasis h2 {
@@ -852,6 +824,7 @@ small {
         font-size: 1.5rem;
     }
 
+
     /***Treatment Section Index****/
     .explore-menu {
         width: 75%;
@@ -873,6 +846,7 @@ small {
         font-size: 1.5rem;
         line-height: 37px;
     }
+
 
     /*********TREATMENT PAGE ********************/
     .rejuvenate {
@@ -1015,11 +989,13 @@ small {
         bottom: 9px;
     }
 
+
     /*****Facial Therapy Articles *******/
     .facial-heading {
         width: 100%;
         font-size: 1.8rem;
     }
+
 
     /*********BOOKING PAGE***************/
     .form-bg {
@@ -1073,8 +1049,8 @@ small {
         width: 300px;
     }
 
-    /*************THANK YOU BOOKING PAGE***********************/
 
+    /*************THANK YOU BOOKING PAGE***********************/
     #booked {
         height: 50px;
     }
@@ -1093,7 +1069,6 @@ small {
         font-size: 2rem;
     }
 
-
     .red-txt a {
         font-size: 2.2rem;
     }
@@ -1108,6 +1083,7 @@ small {
         height: 450px;
     }
 
+
     /****FOOTER ELEMENTS******/
     footer {
         padding-top: 2px;
@@ -1119,7 +1095,6 @@ small {
 
     #social-networks li:first-child {
         margin-bottom: 24px;
-
     }
 }
 
@@ -1133,6 +1108,7 @@ MEDIA QUERY 1024PX
     #menu a {
         font-size: 1.5rem;
     }
+
 
     /****Index Main**********/
     .unwind {
@@ -1156,6 +1132,7 @@ MEDIA QUERY 1024PX
         letter-spacing: 1px;
         margin: 23px auto 20px;
     }
+
 
     /*********TREATMENT PAGE ********************/
     .escape {
@@ -1231,8 +1208,8 @@ MEDIA QUERY 1024PX
         font-size: 2rem;
     }
 
-    /*************THANK YOU BOOKING PAGE***********************/
 
+    /*************THANK YOU BOOKING PAGE***********************/
     #booked {
         height: 55px;
     }
@@ -1251,7 +1228,6 @@ MEDIA QUERY 1024PX
         font-size: 2.2rem;
     }
 
-
     .red-txt a {
         font-size: 2.2rem;
     }
@@ -1265,7 +1241,6 @@ MEDIA QUERY 1024PX
     .couple-thanks {
         height: 450px;
     }
-
 }
 
 /****************************
@@ -1292,6 +1267,7 @@ MEDIA QUERY 1264PX
         font-size: 3rem;
     }
 
+
     /**Welcome Section Index***/
     .welcome-Oasis h2 {
         font-size: 2.5rem;
@@ -1316,6 +1292,7 @@ MEDIA QUERY 1264PX
         text-shadow: 0 2px 2px var(--color-black-purple);
     }
 
+
     /***Treatment Section Index****/
     .explore-menu {
         margin: 90px auto;
@@ -1334,6 +1311,7 @@ MEDIA QUERY 1264PX
         font-size: 2rem;
         line-height: 49px;
     }
+
 
     /*********TREATMENT PAGE ********************/
     .escape {
@@ -1400,6 +1378,7 @@ MEDIA QUERY 1264PX
         bottom: 29px;
     }
 
+
     /*****BOOKING MAIN PAGE ******/
     .form-bg {
         margin-top: 107px;
@@ -1407,8 +1386,6 @@ MEDIA QUERY 1264PX
 
 
     /*************THANK YOU BOOKING PAGE***********************/
-
-
     #congratulations {
         height: 445px;
     }
@@ -1422,8 +1399,6 @@ MEDIA QUERY 1264PX
         top: 0;
     }
 
-
-
     .zen-thanks h2,
     .red-txt a {
         font-size: 2.8rem;
@@ -1434,9 +1409,6 @@ MEDIA QUERY 1264PX
         font-size: 2.6rem;
     }
 
-
-
-
     #after-treatments p {
         font-size: 3.8rem;
         line-height: 82px;
@@ -1446,7 +1418,6 @@ MEDIA QUERY 1264PX
     .couple-thanks {
         height: 700px;
     }
-
 
 
     /****FOOTER ELEMENTS******/
@@ -1462,7 +1433,6 @@ MEDIA QUERY 1366PX
 @media screen and (min-width: 1366px) {
 
     /*********Index Main Elements ***************/
-
     /*Top section element*/
     #intro,
     #treatments-intro {
@@ -1479,6 +1449,7 @@ MEDIA QUERY 1366PX
         top: -6px;
         font-size: 4rem;
     }
+
 
     /**Welcome Section Index***/
     .unwind {
@@ -1499,10 +1470,12 @@ MEDIA QUERY 1366PX
         font-size: 4.5rem;
     }
 
+
     /*********TREATMENT PAGE ********************/
     .swedish a {
         left: 100px;
     }
+
 
     /****FOOTER ELEMENTS******/
     footer {
@@ -1525,7 +1498,6 @@ MEDIA QUERY 1400PX
 @media screen and (min-width: 1400px) {
 
     /*********Index Main Elements ***************/
-
     /*Top section element*/
     #intro,
     #treatments-intro {
@@ -1543,6 +1515,7 @@ MEDIA QUERY 1400PX
         font-size: 4.5rem;
     }
 
+
     /**Welcome Section Index***/
     .welcome-Oasis h2 {
         font-size: 3.5rem;
@@ -1556,6 +1529,7 @@ MEDIA QUERY 1400PX
     .unwind {
         height: 765px;
     }
+
 
     /***Treatment Section Index****/
     #treatments h2 {
@@ -1581,8 +1555,6 @@ MEDIA QUERY 1800PX
 
 
     /*************THANK YOU BOOKING PAGE***********************/
-
-
     #congratulations {
         height: 525px;
     }
@@ -1596,8 +1568,6 @@ MEDIA QUERY 1800PX
         top: 0;
     }
 
-
-
     .zen-thanks h2,
     .red-txt a {
         font-size: 3rem;
@@ -1608,9 +1578,6 @@ MEDIA QUERY 1800PX
         font-size: 2.8rem;
     }
 
-
-
-
     #after-treatments p {
         font-size: 4rem;
         line-height: 95px;
@@ -1620,8 +1587,6 @@ MEDIA QUERY 1800PX
     .couple-thanks {
         height: 900px;
     }
-
-
 }
 
 /****************************
@@ -1641,10 +1606,12 @@ MEDIA QUERY 2200PX
         padding-top: 4px;
     }
 
+
     /**NAV**/
     #menu a {
         font-size: 1.8rem;
     }
+
 
     /***********MAIN INDEX PAGE *********/
     #intro,
@@ -1698,6 +1665,7 @@ MEDIA QUERY 2200PX
         line-height: 66px;
         margin: 46px auto 40px;
     }
+
 
     /***********MAIN TREATMENT PAGE *********/
     .rejuvenate {
@@ -1811,6 +1779,7 @@ MEDIA QUERY 2200PX
         left: 42px;
     }
 
+
     /*************BOOKING PAGE MAIN **********/
     #booking-form h1 {
         font-size: 5.5rem;
@@ -1853,8 +1822,6 @@ MEDIA QUERY 2200PX
 
 
     /*************THANK YOU BOOKING PAGE***********************/
-
-
     #congratulations {
         height: 725px;
     }
@@ -1868,8 +1835,6 @@ MEDIA QUERY 2200PX
         top: 0;
     }
 
-
-
     .zen-thanks h2,
     .red-txt a {
         font-size: 3.5rem;
@@ -1879,9 +1844,6 @@ MEDIA QUERY 2200PX
     .black-txt {
         font-size: 3rem;
     }
-
-
-
 
     #after-treatments p {
         font-size: 4.5rem;
