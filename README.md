@@ -1,5 +1,5 @@
-<div style= "background-color: white; border-radius: 10px; width: 100px;  margin: 0 auto;">
-  <img src="assets/images/spa-logo-text.webp" alt="Zen Spa Logo">
+<div align="center">
+  <img src="assets/images/spa-logo-text.webp" style="border-radius: 10px; width: 500px" alt="Zen Spa Logo">
 </div>
 <div align="center">
   <img src="assets/images/zen-oasis-all-devices.png" alt="Home page of Zen Spa">
