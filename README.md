@@ -46,7 +46,10 @@
     - [Treatment Introduction](#treatment-introduction)
     - [Body Massages](#body-massages)
     - [Facial Massages](#body-massages)
-  - [Booking Page ](#booking-page)
+  - [Booking Page](#booking-page)
+    - [Booked Page](#booked-page)
+    - [Booked Page Links](#booked-page-links)
+    - [Booked Page More](#booked-page-more)
   - [Footer](#footer)
 - [Author](#author)
 
@@ -209,3 +212,32 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - Facial massages are categorized separately from body massages.
 - Images are a powerful tool to distinguish between the various types of facial massages and to illustrate their unique characteristics.
 - Each paragraph unlocks the potential of each facial massage as it reveals different purposes, guiding the user to choose the one that's right for them.
+
+## Booking Page
+
+<div align="center">
+  <img src="assets/images/booking-form.webp"  alt="booking form.">
+</div>
+
+- A form provides the method for a user to book their massage.
+- In the first part of the form, a user can enter their contact details.
+- The second part of the form presents an opportunity for users to select the massage that best suits their needs and preferences.
+- The user has the power to select the perfect date for their rejuvenating massage.
+
+### Booked Page Links
+
+<div align="center">
+  <img src="assets/images/booking-thank-you-links.webp"  alt="booking form.">
+</div>
+
+- Once a user submits the booking form through the action attribute of the form, they are taken to the _Thank you for booking_ page.
+- With a Book link, a user is empowered to return to the booking page and indulge in booking another rejuvenating massage experience.
+- The alternative is for the user to utilize the "Home page" link.
+
+### Booked Page More
+
+<div align="center">
+  <img src="assets/images/booking-enjoy.webp"  alt="booking form.">
+</div>
+
+- An invitation to fully embrace the additional amenities at the spa is warmly extended.
