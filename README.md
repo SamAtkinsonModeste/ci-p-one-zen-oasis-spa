@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="assets/images/spa-logo-text-readme.png" style="border-radius: 10px; width: 250px" alt="Zen Spa Logo">
+  <img src="assets/images/spa-logo-text-readme.webp" style="border-radius: 10px; width: 250px" alt="Zen Spa Logo">
 </div>
 <div align="center">
-  <img src="assets/images/zen-oasis-all-devices.png" alt="Home page of Zen Spa">
+  <img src="assets/images/all-devices.webp" alt="Home page of Zen Spa">
 </div>
 
 # Zen Oasis Spa
@@ -40,7 +40,7 @@
   - [Home Page](#home-page)
   - [Treatment Page](#treatment-page)
   - [Booking Page ](#booking-page)
-  - [Social Media](social-media)
+  - [Footer - Social Media](footer-social-media)
 - [Author](#author)
 
 ## Goals
@@ -62,13 +62,13 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
 > The standard process is to create a Wireframe first.
 
 <div align="center">
-  <img src="assets/images/high-f-mockups.png" style="background-color:black" alt="Home, Treatment and Booking mobile pages mockups">
+  <img src="assets/images/high-f-mockups.webp" style="background-color:black" alt="Home, Treatment and Booking mobile pages mockups">
 </div>
 
 ### Fonts
 
 <div align="center">
-  <img src="assets/images/amandine-font.png" alt="Font Amandine">
+  <img src="assets/images/amandine-font.webp" alt="Font Amandine">
 </div>
 
 - Adobe's [Amandine](https://fonts.adobe.com/fonts/amandine) font has clean lines and graceful curves that evoke a sense of elegance and tranquillity.
@@ -76,7 +76,7 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
   Amandine’s legibility ensures that headings are easy to read, even at larger sizes. The balanced letterforms enhance clarity, making it ideal for titles and headers. Amandine works well across various devices and screen resolutions. Whether on a desktop or mobile, it maintains its visual appeal.
 
 <div align="center">
-  <img src="assets/images/aptly-font.png" alt="Font Aptly">
+  <img src="assets/images/aptly-font.webp" alt="Font Aptly">
 </div>
 
 - Adobe's [Aptly](https://fonts.adobe.com/fonts/aptly) font was used for body text. It is also a sans-serif font, and the combination of **Amandine** (for headings) and **Aptly** (for body text) creates a pleasing contrast. **Amandine’s** sophistication draws attention, while **Aptly** maintains legibility, striking a harmonious balance.
@@ -85,7 +85,7 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
 ### Colour Palette
 
 <div align="center">
-  <img src="assets/images/color-palette.png" alt="Colour palette of 6six different colours">
+  <img src="assets/images/color-palette.webp" alt="Colour palette of 6six different colours">
 </div>
 
 - The primary colour evokes relaxation, tranquillity, and sandy beaches, setting the overall tone and mood of the website.
@@ -101,7 +101,7 @@ Over the years, my CSS journey has been fun.<br>
 I love how you can use CSS not only for the layout of your pages <br> but also to add artistic touches to your site using properties such as:
  </div>
 
-- [Text-Shadow](https://www.w3schools.com/cssref/css3_pr_text-shadow.php)
+- [Text-Shadow](https://www.w3schools.com/cssref/css3_pr_text-shadow.php) By giving the horizontal value zero, the vertival setting a positive value and a small blur value text can seem as if they are popping or leaping off the page.
 - [Border-Radius](https://www.w3schools.com/cssref/css3_pr_border-radius.php) which can be used to make interestng shapes of a block element.
 - [RGBA Function](https://css-tricks.com/the-power-of-rgba/) used with background images can change the look and feel of your image by taking advantage of the Aplha value.
 - I used [Normalize.css](https://necolas.github.io/normalize.css/) to reset all elements across all browsers.
@@ -110,3 +110,62 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 ## Features
 
 ### Navigation Bars
+
+#### Mobile Navigation
+
+<div align="center">
+  <img src="assets/images/mobile-nav.webp"  alt="Mobile Hamburger Nav">
+  <img src="assets/images/mobile-nav-open.webp" alt=" Mobile Hamburger Nav Open">
+</div>
+
+- The logo returns a user to the home page.
+- I created the hamburger with span tags.
+- With the use of a checkbox along with it's corresponding label animation of the span elements can be toggled to display the nav menu.
+- The accent color was used for the text links to indicate what page the user is currently on.
+
+#### Tablet & Desktop Navigation
+
+<div align="center">
+  <img style=" width: 600px"src="assets/images/nav.webp"  alt="Desktop Nav">
+</div>
+
+- The full nav functions the same as the mobile.
+- The logo takes you back to the home page.
+- The accent colour is used on the links to indicate the current page a user is on.
+
+## Home Page
+
+### Home Welcome Section
+
+<div align="center">
+  <img src="assets/images/home-welcome.webp"  alt="Home top welcome section">
+</div>
+
+- A luxurious reception picture establishes the ambience for a high-class spa escape.
+- A heartfelt welcome message embodies the spa's principles and atmosphere.
+
+### Unwind & Tranquillity
+
+<div align="center">
+  <img src="assets/images/home-relax.webp"  alt="Home top welcome section">
+</div>
+
+- An image of all the tools used for massages and candles representing the relaxing, quiet, calm, and romantic ambiance of a spa.
+- Embracing simplicity, the text emphasizes the essential activities of mind and body.
+
+### Explore & Escape
+
+<div align="center">
+  <img src="assets/images/home-explore.webp"  alt="Home top welcome section">
+</div>
+- Text encouraging users to explore the spa's services.
+- The image of the pool, towel, and orchard flowers will evoke thoughts of escape, vacation, and relaxation.
+
+### Treatments & Experts
+
+<div align="center">
+  <img src="assets/images/home-treatments.webp"  alt="Home top welcome section">
+</div>
+
+- An enchanting scene is set with a background image of massage beds and rose petals, creating the perfect ambiance for the magic of massages to unfold.
+- The accompanying text outlines the high standard of massages provided by the expert therapist.
