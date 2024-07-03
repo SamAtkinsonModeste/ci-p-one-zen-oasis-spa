@@ -35,12 +35,19 @@
   - [Styling](#styling)
 - [Features](#features)
   - [Navigation Bars](#naviagation-bars)
-    - [Mobile Navigation](mobile-navigation)
-    - [Tablet & Desktop Navigation](tablet-desktop-navigation)
+    - [Mobile Navigation](#mobile-navigation)
+    - [Tablet Desktop Navigation](#tablet-desktop-navigation)
   - [Home Page](#home-page)
+    - [Home Welcome Section](#home-welcome-section)
+    - [Unwind Tranquillity](#unwind-tranquillity)
+    - [Explore Escape](#explore-escape)
+    - [Treatments Experts](#treatments-experts)
   - [Treatment Page](#treatment-page)
+    - [Treatment Introduction](#treatment-introduction)
+    - [Body Massages](#body-massages)
+    - [Facial Massages](#body-massages)
   - [Booking Page ](#booking-page)
-  - [Footer - Social Media](footer-social-media)
+  - [Footer](#footer)
 - [Author](#author)
 
 ## Goals
@@ -123,7 +130,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - With the use of a checkbox along with it's corresponding label animation of the span elements can be toggled to display the nav menu.
 - The accent color was used for the text links to indicate what page the user is currently on.
 
-#### Tablet & Desktop Navigation
+#### Tablet Desktop Navigation
 
 <div align="center">
   <img style=" width: 600px"src="assets/images/nav.webp"  alt="Desktop Nav">
@@ -138,34 +145,67 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 ### Home Welcome Section
 
 <div align="center">
-  <img src="assets/images/home-welcome.webp"  alt="Home top welcome section">
+  <img src="assets/images/home-welcome.webp"  alt="Home top section with reception image and welcome text">
 </div>
 
 - A luxurious reception picture establishes the ambience for a high-class spa escape.
 - A heartfelt welcome message embodies the spa's principles and atmosphere.
 
-### Unwind & Tranquillity
+### Unwind Tranquillity
 
 <div align="center">
-  <img src="assets/images/home-relax.webp"  alt="Home top welcome section">
+  <img src="assets/images/home-relax.webp"  alt="Home unwind section candles and massage tools image with text">
 </div>
 
 - An image of all the tools used for massages and candles representing the relaxing, quiet, calm, and romantic ambiance of a spa.
 - Embracing simplicity, the text emphasizes the essential activities of mind and body.
 
-### Explore & Escape
+### Explore Escape
 
 <div align="center">
-  <img src="assets/images/home-explore.webp"  alt="Home top welcome section">
+  <img src="assets/images/home-explore.webp"  alt="Home section pool image and text">
 </div>
+
 - Text encouraging users to explore the spa's services.
 - The image of the pool, towel, and orchard flowers will evoke thoughts of escape, vacation, and relaxation.
 
-### Treatments & Experts
+### Treatments Experts
 
 <div align="center">
-  <img src="assets/images/home-treatments.webp"  alt="Home top welcome section">
+  <img src="assets/images/home-treatments.webp"  alt="Home treatment section image of massge beds and text">
 </div>
 
 - An enchanting scene is set with a background image of massage beds and rose petals, creating the perfect ambiance for the magic of massages to unfold.
 - The accompanying text outlines the high standard of massages provided by the expert therapist.
+
+## Treatment Page
+
+### Treatment Introduction
+
+<div align="center">
+  <img src="assets/images/treatment-intro.webp"  alt="Treatment top section intro to massages with text and image of massage beds">
+</div>
+
+- The image of the waiting area in the massage therapy rooms and the inviting beds ignites a sense of anticipation for what lies ahead in the massage room.
+- The text beautifully highlights the three main aspects of well-being that a massage therapist can nurture: the mind, body, and spirit.
+
+### Body Massages
+
+<div align="center">
+  <img src="assets/images/treatment-body-massages.webp"  alt="images of Swedish, Hot-Stone and Couples massages with text explaining each one.">
+</div>
+
+- Each Massage article has an image of the specific massage.
+  Which gives a visual demostration of that specific massage.
+- Every body article massage is color-coded, representing the uniqueness of each massage.
+- A comprehensive description of the massage and its benefits for the body, mind, and spirit will help users determine if it's the perfect fit for them.
+
+### Facial Massages
+
+<div align="center">
+  <img src="assets/images/treatment-face-massages.webp"  alt="images of Facial, Mud Facial and Mask Facials with text explaining each one.">
+</div>
+
+- Facial massages are categorized separately from body massages.
+- Images are a powerful tool to distinguish between the various types of facial massages and to illustrate their unique characteristics.
+- Each paragraph unlocks the potential of each facial massage as it reveals different purposes, guiding the user to choose the one that's right for them.
