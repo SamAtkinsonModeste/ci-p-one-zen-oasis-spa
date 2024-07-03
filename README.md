@@ -227,7 +227,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 ### Booked Page Links
 
 <div align="center">
-  <img src="assets/images/booking-thank-you-links.webp"  alt="booking form.">
+  <img src="assets/images/booking-thank-you-links.webp"  alt="Image of indoor pools and text">
 </div>
 
 - Once a user submits the booking form through the action attribute of the form, they are taken to the _Thank you for booking_ page.
@@ -237,7 +237,18 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 ### Booked Page More
 
 <div align="center">
-  <img src="assets/images/booking-enjoy.webp"  alt="booking form.">
+  <img src="assets/images/booking-enjoy.webp"  alt="A couple in a spa pool.">
 </div>
 
 - An invitation to fully embrace the additional amenities at the spa is warmly extended.
+
+## Footer
+
+<div align="center">
+  <img style="width: 800px;" src="assets/images/footer-social-media.webp"  alt="A footer with social media image links">
+</div>
+
+- The footer is not just a small detail, it is one of the consistent elements present on every page.
+- It is crucial to maintain a strong presence on social media in today's digital landscape. The footer showcases each social media platform where Zen Oasis is active.
+
+- The inclusion of social media links opens the doors for users to discover glowing reviews about Zen Oasis, stay in the loop with the latest offers, and reminisce about their stay, inspiring them to plan a return visit.
