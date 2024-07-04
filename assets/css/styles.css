@@ -457,7 +457,7 @@ main {
 .swedish a,
 .couple a {
     color: var(--color-dark-grey);
-    bottom: 8px;
+    bottom: -9px;
     left: 168px;
 }
 
@@ -511,7 +511,7 @@ main {
 
 .couple a {
     color: var(--color-accent);
-    bottom: 9px;
+    bottom: -21px;
 }
 
 .facial a,
@@ -533,7 +533,7 @@ main {
 }
 
 .mask a {
-    bottom: 27px;
+    bottom: 0;
 }
 
 /*********BOOKING Main PAGE***************/
