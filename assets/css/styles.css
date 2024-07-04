@@ -429,6 +429,13 @@ main {
     padding: 8px 15px;
     padding-bottom: 50px;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.facial p,
+.mud p,
+.mask p {
+    box-shadow: rgba(244, 246, 245, 0.10) 0px 30px 60px -12px inset, rgba(238, 239, 239, 0.3) 0px 18px 36px -18px inset;
 }
 
 .massages a {
