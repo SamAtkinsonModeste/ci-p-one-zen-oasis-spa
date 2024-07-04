@@ -665,17 +665,18 @@ select:focus label {
 
 .zen-thanks h2,
 .tan-txt,
-.tan-txt a {
+.tan-txt a,
+.black-txt {
     color: var(--color-prime);
 }
 
-.black-txt {
-    color: var(--color-black-purple);
+.red-txt {
+    color: var(--color-accent);
 }
 
-.red-txt,
-.red-txt a {
-    color: var(--color-accent);
+.red-txt a,
+.tan-txt a {
+    color: rgb(67, 2, 13);
 }
 
 #after-treatments p {
