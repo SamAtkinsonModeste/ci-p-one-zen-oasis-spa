@@ -245,7 +245,7 @@ main {
 #booked {
     position: absolute;
     height: 47px;
-    background-color: rgba(39, 27, 41, 0.3);
+    background-color: rgba(39, 27, 41, 0.5);
     margin: 0;
     left: 0;
     bottom: 0;
