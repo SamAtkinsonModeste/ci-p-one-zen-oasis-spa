@@ -60,7 +60,9 @@
       - [Accessibility](#accessibility)
       - [Mobile Testing](#mobile-testing)
       - [Desktop Testing](#desktop-testing)
-    - [Bugs](#bugs)
+    - [Bugs](#bugs) -[Known Bugs](#known-bugs) -[Fixed Bugs](#fixed-bugs)
+- [Deployment](#deployment)
+  - [Github Deployment](#github-deployment)
 - [Author](#author)
 
 ## Goals
@@ -79,7 +81,7 @@ User goals are:
 
 With a clear idea of the site's look, I went straight to a high-fidelity mockup using Adobe XD.
 
-> The standard process is to create a Wireframe first.
+> Note: The standard process is to create a Wireframe first.
 
 <div align="center">
   <img src="assets/images/high-f-mockups.webp" style="background-color:black" alt="Home, Treatment and Booking mobile pages mockups">
@@ -317,8 +319,10 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
   - iPhone 14 Pro Max
   - iPhone XR
   - Samsung S23
-    - Tablet
-      - iPad Pro Portrait and Landscape
+
+  Tablet
+
+  - iPad Pro Portrait and Landscape
 
 ## Desktop Testing
 
@@ -327,3 +331,37 @@ Desktop testing was done on:
 - Dell Inspiron Desktop
 - Macbook Pro Laptop
 - Huawei Laptop
+
+## Bugs
+
+### Known Bugs
+
+- When the form is submitted user wasn't redirected to **thank-you.html**.
+
+### Fixed Bugs
+
+1. Submit button directing user to **thank-you.html** page - fixed by removing the _method_ attribute from my form element.
+2. Added attribute _target_ with value _underscore blank_ to the _form_ opening tag.
+
+# Deployment
+
+## Github Deployment
+
+### Github Instructions
+
+Steps for creating a repository and deploying it:
+
+1. I went to my GitHub account and clicked on the **Repositories** page, then I clicked on the **New** button.
+2. On the **Create a new repository** page, I entered the name of my repository in the input element labelled _Repository name_.
+3. In the input labelled _Description_, I wrote a brief description.
+4. I made sure to select the radio button labelled **Public**.
+5. I checked the checkbox labelled _Add a README file_ .
+6. For the select element labelled _Add .gitignore_ I chose _VisualStudio_
+7. Once done, I clicked the **Create Repository** button.
+8. I cloned my new repository in my VSCode, where I added all my files.
+9. Back on the GitHub site on the page of my new repository, I clicked on the **Settings** link.
+10. On the **Settings** in the side nav I clicked on **Github Pages**.
+11. In the **Github Pages** section I ensure the _Master Branch_ was the source and clicked **Confirm**.
+12. After a few minutes, my repository was live.
+
+This is my repository's [live link: Zen Oasis Spa](https://samatkinsonmodeste.github.io/ci-p-one-zen-oasis-spa/index.html)
