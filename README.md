@@ -24,17 +24,17 @@
 
 ## Table of Contents
 
-## UX
+# UX
 
 - [Goals](#goals)
   - [Visitors Goals](#visitors-goals)
 - [Visual Design](#visual-design)
   - [High Fidelity Mockup](#high-fidelity-mockup)
   - [Fonts](#fonts)
-  - [Colour](#colour-palette)
+  - [Colour Palette](#colour-palette)
   - [Styling](#styling)
 - [Features](#features)
-  - [Navigation Bars](#naviagation-bars)
+  - [Navigation Bars](#navigation-bars)
     - [Mobile Navigation](#mobile-navigation)
     - [Tablet Desktop Navigation](#tablet-desktop-navigation)
   - [Home Page](#home-page)
@@ -45,11 +45,10 @@
   - [Treatment Page](#treatment-page)
     - [Treatment Introduction](#treatment-introduction)
     - [Body Massages](#body-massages)
-    - [Facial Massages](#body-massages)
+    - [Facial Massages](#facial-massages)
   - [Booking Page](#booking-page)
-    - [Booked Page](#booked-page)
-    - [Booked Page Links](#booked-page-links)
-    - [Booked Page More](#booked-page-more)
+    - [Thank You For Booking Page](#thank-you-for-booking-page)
+    - [Thank You For Booking Page More](#thank-you-for-booking-page-more)
   - [Footer](#footer)
   - [Technologies Used](#technologies-used)
     - [Languages](#languages)
@@ -70,7 +69,7 @@
 
 ## Goals
 
-### Visitors Goals
+## Visitors Goals
 
 User goals are:
 
@@ -78,9 +77,9 @@ User goals are:
 - View all treatment massages available
 - Book a time and date for their treatment
 
-### Visual Design
+# Visual Design
 
-#### High Fidelity Mockup
+## High Fidelity Mockup
 
 With a clear idea of the site's look, I went straight to a high-fidelity mockup using Adobe XD.
 
@@ -90,7 +89,7 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
   <img src="assets/images/high-f-mockups.webp" style="background-color:black" alt="Home, Treatment and Booking mobile pages mockups">
 </div>
 
-### Fonts
+## Fonts
 
 <div align="center">
   <img src="assets/images/amandine-font.webp" alt="Font Amandine">
@@ -107,7 +106,7 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
 - Adobe's [Aptly](https://fonts.adobe.com/fonts/aptly) font was used for body text. It is also a sans-serif font, and the combination of **Amandine** (for headings) and **Aptly** (for body text) creates a pleasing contrast. **Amandine’s** sophistication draws attention, while **Aptly** maintains legibility, striking a harmonious balance.
   **Aptly’s** contemporary aesthetics align with the site's modern and serene vibe. Its simplicity conveys professionalism and a sense of calm. Aptly adapts well to various screen sizes, ensuring a consistent experience on desktops, tablets, and mobiles.
 
-### Colour Palette
+## Colour Palette
 
 <div align="center">
   <img src="assets/images/color-palette.webp" alt="Colour palette of 6six different colours">
@@ -119,7 +118,7 @@ With a clear idea of the site's look, I went straight to a high-fidelity mockup 
 - My black, which hints at the accent colour, makes a great contrast.
 - My greys provide subtle contrast and depth.
 
-### Styling
+## Styling
 
 <div align="center">
 Over the years, my CSS journey has been fun.<br>
@@ -132,11 +131,11 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - I used [Normalize.css](https://necolas.github.io/normalize.css/) to reset all elements across all browsers.
 - [Media Queries](https://www.w3schools.com/cssref/css3_pr_mediaquery.php) - I used several to ensure my layout stayed intact for most devices.
 
-## Features
+# Features
 
-### Navigation Bars
+## Navigation Bars
 
-#### Mobile Navigation
+## Mobile Navigation
 
 <div align="center">
   <img src="assets/images/mobile-nav.webp"  alt="Mobile Hamburger Nav">
@@ -148,7 +147,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - With the use of a checkbox along with it's corresponding label animation of the span elements can be toggled to display the nav menu.
 - The accent color was used for the text links to indicate what page the user is currently on.
 
-#### Tablet Desktop Navigation
+## Tablet Desktop Navigation
 
 <div align="center">
   <img style=" width: 600px"src="assets/images/nav.webp"  alt="Desktop Nav">
@@ -158,9 +157,9 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - The logo takes you back to the home page.
 - The accent colour is used on the links to indicate the current page a user is on.
 
-## Home Page
+# Home Page
 
-### Home Welcome Section
+## Home Welcome Section
 
 <div align="center">
   <img src="assets/images/home-welcome.webp"  alt="Home top section with reception image and welcome text">
@@ -169,7 +168,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - A luxurious reception picture establishes the ambience for a high-class spa escape.
 - A heartfelt welcome message embodies the spa's principles and atmosphere.
 
-### Unwind Tranquillity
+## Unwind Tranquillity
 
 <div align="center">
   <img src="assets/images/home-relax.webp"  alt="Home unwind section candles and massage tools image with text">
@@ -178,7 +177,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - An image of all the tools used for massages and candles representing the relaxing, quiet, calm, and romantic ambiance of a spa.
 - Embracing simplicity, the text emphasizes the essential activities of mind and body.
 
-### Explore Escape
+## Explore Escape
 
 <div align="center">
   <img src="assets/images/home-explore.webp"  alt="Home section pool image and text">
@@ -187,7 +186,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - Text encouraging users to explore the spa's services.
 - The image of the pool, towel, and orchard flowers will evoke thoughts of escape, vacation, and relaxation.
 
-### Treatments Experts
+## Treatments Experts
 
 <div align="center">
   <img src="assets/images/home-treatments.webp"  alt="Home treatment section image of massge beds and text">
@@ -196,9 +195,9 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - An enchanting scene is set with a background image of massage beds and rose petals, creating the perfect ambiance for the magic of massages to unfold.
 - The accompanying text outlines the high standard of massages provided by the expert therapist.
 
-## Treatment Page
+# Treatment Page
 
-### Treatment Introduction
+## Treatment Introduction
 
 <div align="center">
   <img src="assets/images/treatment-intro.webp"  alt="Treatment top section intro to massages with text and image of massage beds">
@@ -207,7 +206,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - The image of the waiting area in the massage therapy rooms and the inviting beds ignites a sense of anticipation for what lies ahead in the massage room.
 - The text beautifully highlights the three main aspects of well-being that a massage therapist can nurture: the mind, body, and spirit.
 
-### Body Massages
+## Body Massages
 
 <div align="center">
   <img src="assets/images/treatment-body-massages.webp"  alt="images of Swedish, Hot-Stone and Couples massages with text explaining each one.">
@@ -218,7 +217,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - Every body article massage is color-coded, representing the uniqueness of each massage.
 - A comprehensive description of the massage and its benefits for the body, mind, and spirit will help users determine if it's the perfect fit for them.
 
-### Facial Massages
+## Facial Massages
 
 <div align="center">
   <img src="assets/images/treatment-face-massages.webp"  alt="images of Facial, Mud Facial and Mask Facials with text explaining each one.">
@@ -228,7 +227,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - Images are a powerful tool to distinguish between the various types of facial massages and to illustrate their unique characteristics.
 - Each paragraph unlocks the potential of each facial massage as it reveals different purposes, guiding the user to choose the one that's right for them.
 
-## Booking Page
+# Booking Page
 
 <div align="center">
   <img src="assets/images/booking-form.webp"  alt="booking form.">
@@ -239,7 +238,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - The second part of the form presents an opportunity for users to select the massage that best suits their needs and preferences.
 - The user has the power to select the perfect date for their rejuvenating massage.
 
-### Booked Page Links
+## Thank You For Booking Page
 
 <div align="center">
   <img src="assets/images/booking-thank-you-links.webp"  alt="Image of indoor pools and text">
@@ -249,7 +248,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - With a Book link, a user is empowered to return to the booking page and indulge in booking another rejuvenating massage experience.
 - The alternative is for the user to utilize the "Home page" link.
 
-### Booked Page More
+## Thank You For Booking Page More
 
 <div align="center">
   <img src="assets/images/booking-enjoy.webp"  alt="A couple in a spa pool.">
@@ -257,7 +256,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 
 - An invitation to fully embrace the additional amenities at the spa is warmly extended.
 
-## Footer
+# Footer
 
 <div align="center">
   <img style="width: 800px;" src="assets/images/footer-social-media.webp"  alt="A footer with social media image links">
@@ -268,9 +267,9 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 
 - The inclusion of social media links opens the doors for users to discover glowing reviews about Zen Oasis, stay in the loop with the latest offers, and reminisce about their stay, inspiring them to plan a return visit.
 
-## Technologies Used
+# Technologies Used
 
-### Languages
+## Languages
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - Page Structure
@@ -278,7 +277,7 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 
   - Page Styling
 
-  ### Other Tools
+  ## Other Tools
 
   - [Adobe XD](https://adobe-xd.en.softonic.com/)
     - To create the High Fidelity mock-ups.
@@ -289,9 +288,9 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 
   # Testing
 
-  ## Methods
+  # Methods
 
-  ### Validation
+  ## Validation
 
   - All HTML files validated with [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -335,13 +334,13 @@ Desktop testing was done on:
 - Macbook Pro Laptop
 - Huawei Laptop
 
-## Bugs
+# Bugs
 
-### Known Bugs
+## Known Bugs
 
 - When the form is submitted user wasn't redirected to **thank-you.html**.
 
-### Fixed Bugs
+## Fixed Bugs
 
 1. Submit button directing user to **thank-you.html** page - fixed by removing the _method_ attribute from my form element.
 2. Added attribute _target_ with value _underscore blank_ to the _form_ opening tag.
@@ -383,6 +382,8 @@ I drew inspiration for my spa from various sources:
 
 - To understand various massage therapies, I explored the [10 Types of Spa Treatments to Rejuvenate Your Mind, Body, and Soul](https://www.bellacollina.com/blog/10-types-of-spa-treatments-to-rejuvenate-your-mind-body-and-soul).
 
+- The visual images were sourced from [Adobe Stock](https://stock.adobe.com/uk/photos).
+
 - [Microsoft 365 Copilot](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/) provided much of the uplifting text content for my spa website.
 
 - As someone who struggles with dyslexia, I relied on [Grammarly](https://app.grammarly.com/) for grammar and spelling support. Their AI also helped me enhance the overall wording of my text.
@@ -390,5 +391,5 @@ I drew inspiration for my spa from various sources:
 ## Author
 
 - Twitter - [@sammodeste1](https://www.twitter.com/@sammodeste1)
-- LinkedIn - [Sam-Atkinson-Modeste](https://www.linkedin.com/<<sam-atkinson-modeste>>)
+- LinkedIn - [Sam-Atkinson-Modeste](www.linkedin.com/in/sam-atkinson-modeste)
 - GitHub - [SamAtkinsonModeste](https://www.github.com/SamAtkinsonModeste)
