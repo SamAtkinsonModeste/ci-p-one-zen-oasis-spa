@@ -51,6 +51,16 @@
     - [Booked Page Links](#booked-page-links)
     - [Booked Page More](#booked-page-more)
   - [Footer](#footer)
+  - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Other Tools](#other-tools)
+  - [Testing](#testing)
+    - [Methods](#methods)
+      - [Validation](#validation)
+      - [Accessibility](#accessibility)
+      - [Mobile Testing](#mobile-testing)
+      - [Desktop Testing](#desktop-testing)
+    - [Bugs](#bugs)
 - [Author](#author)
 
 ## Goals
@@ -252,3 +262,68 @@ I love how you can use CSS not only for the layout of your pages <br> but also t
 - It is crucial to maintain a strong presence on social media in today's digital landscape. The footer showcases each social media platform where Zen Oasis is active.
 
 - The inclusion of social media links opens the doors for users to discover glowing reviews about Zen Oasis, stay in the loop with the latest offers, and reminisce about their stay, inspiring them to plan a return visit.
+
+## Technologies Used
+
+### Languages
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Page Structure
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+  - Page Styling
+
+  ### Other Tools
+
+  - [Adobe XD](https://adobe-xd.en.softonic.com/)
+    - To create the High Fidelity mock-ups.
+  - [Favicon](https://www.favicon-generator.org/)
+    - Creates multiple favicons from a single image to cater to diverse browsers and devices.
+  - [Colormind](http://colormind.io/bootstrap/)
+    - Designs colour palettes.
+
+  # Testing
+
+  ## Methods
+
+  ### Validation
+
+  - All HTML files validated with [W3C Markup Validation Service](https://validator.w3.org/)
+
+    - <div align="center">
+        <img src="assets/images/all-html-checked.webp"  alt="Images of four HTML pages validation results">
+      </div>
+
+- Stylesheet validated with [W3C CSS Validation Service](https://validator.w3.org/)
+
+  - <div align="center">
+      <img src="assets/images/css-validation.webp"  alt="Image of CSS validation results of a style sheet">
+    </div>
+
+    ## Accessibility
+
+- I used [Chrome's Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) for mainly accessibility as well as:
+  - Performance
+  - Best Practices
+  - SEO
+- <div align="center">
+     <img src="assets/images/all-lighthouse.webp"  alt="A footer with social media image links">
+   </div>
+
+  ## Mobile Testing
+
+  Mobile testing was done on:
+
+  - iPhone 14 Pro Max
+  - iPhone XR
+  - Samsung S23
+    - Tablet
+      - iPad Pro Portrait and Landscape
+
+## Desktop Testing
+
+Desktop testing was done on:
+
+- Dell Inspiron Desktop
+- Macbook Pro Laptop
+- Huawei Laptop
