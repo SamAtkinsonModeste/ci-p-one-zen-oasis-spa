@@ -65,6 +65,7 @@
     - [Fixed Bugs](#fixed-bugs)
 - [Deployment](#deployment)
   - [Github Deployment](#github-deployment)
+- [Credits](#credits)
 - [Author](#author)
 
 ## Goals
@@ -367,3 +368,27 @@ Steps for creating a repository and deploying it:
 12. After a few minutes, my repository was live.
 
 This is my repository's [live link: Zen Oasis Spa](https://samatkinsonmodeste.github.io/ci-p-one-zen-oasis-spa/index.html)
+
+> Note: I dabbled in creating branches and merging them into my main branch. While it's typical to delete these branches after merging, I chose to keep them as a testament to the power of branching in this project.
+
+## Credits
+
+#### Ideas for Spa Websites
+
+I drew inspiration for my spa from various sources:
+
+- The [Gloss Genius Blog about Spa Names](https://glossgenius.com/blog/spa-names) guided me in choosing the perfect name for my spa.
+
+- I found ideas for designing my spa website from the [21 Best Spa Websites Examples 2024](https://colorlib.com/wp/spa-websites/) webpage.
+
+- To understand various massage therapies, I explored the [10 Types of Spa Treatments to Rejuvenate Your Mind, Body, and Soul](https://www.bellacollina.com/blog/10-types-of-spa-treatments-to-rejuvenate-your-mind-body-and-soul).
+
+- [Microsoft 365 Copilot](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/) provided much of the uplifting text content for my spa website.
+
+- As someone who struggles with dyslexia, I relied on [Grammarly](https://app.grammarly.com/) for grammar and spelling support. Their AI also helped me enhance the overall wording of my text.
+
+## Author
+
+- Twitter - [@sammodeste1](https://www.twitter.com/@sammodeste1)
+- LinkedIn - [Sam-Atkinson-Modeste](https://www.linkedin.com/<<sam-atkinson-modeste>>)
+- GitHub - [SamAtkinsonModeste](https://www.github.com/SamAtkinsonModeste)
